@@ -1,0 +1,72 @@
+\documentclass[a4paper,openright,twoside,11pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[Algoritmo]{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{subcaption}
+
+\setlength{\textheight}{24.00cm}
+\setlength{\textwidth}{15.50cm}
+\setlength{\topmargin}{0.35cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{0cm}
+\setlength{\oddsidemargin}{0.25cm}
+\setlength{\evensidemargin}{0.25cm}
+
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{1cm}{0.5cm}
+
+\titleformat{\subsection}[block]{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{0.5cm}{0.4cm}
+
+\titleformat{\subsubsection}[block]{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{1cm}{0.4cm}
+
+\title{
+   \vspace{-50mm}
+   \begin{minipage}[l]{\textwidth}
+      \hspace{-5mm}\resizebox{75mm}{!}{\includegraphics{./figures/logo_ciencias.png}}\\
+   \end{minipage}\\[20mm]
+   {\bfseries Risk Assessment and Incident Response Plan for PowerPlus}\\[10mm]
+   {\bfseries An Information Security Analysis}\\[10mm]
+}
+
+\author{
+    \begin{tabular}{ll}
+        Denis Ungureanu & fc56307\\
+        Leonardo Monteiro & fc58250\\
+        Gustavo Henriques & fc64361\\[50mm]
+    \end{tabular}
+}
+
+\date{
+\begin{tabular}{ll}
+  {Prof. Dr. Ana Respício} \\
+\end{tabular}\\[10mm]
+Risk Analysis and Management in Information Security \\
+MSc in Computer Science and Engineering\\[20mm]
+November 2024}
+
+\begin{document}
+\pagenumbering{roman}
+\thispagestyle{empty}
+
+\maketitle
+
+\tableofcontents
+
+\include{chapters/Introduction}
+\include{chapters/EstablishingContext}
+\include{chapters/RiskAssessment} 
+\include{chapters/IncidentScenarios}
+\include{chapters/SOCPreparation}
+\include{chapters/Conclusions}
+
+\end{document}
+
