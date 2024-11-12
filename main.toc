@@ -1,20 +1,20 @@
-\contentsline {chapter}{\numberline {1}Introduction}{v}{}%
-\contentsline {section}{\numberline {1.1}Purpose of the Report}{v}{}%
-\contentsline {section}{\numberline {1.2}Background on PowerPlus}{v}{}%
-\contentsline {subsection}{\numberline {1.2.1}Industry-Specific Security Challenges}{v}{}%
-\contentsline {section}{\numberline {1.3}Objectives of the Risk Assessment and Incident Response Plan}{v}{}%
-\contentsline {section}{\numberline {1.4}Methodology Overview}{v}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{iii}{}%
+\contentsline {section}{\numberline {1.1}Purpose of the Report}{iii}{}%
+\contentsline {section}{\numberline {1.2}Background on PowerPlus}{iii}{}%
+\contentsline {subsection}{\numberline {1.2.1}Industry-Specific Security Challenges}{iii}{}%
+\contentsline {section}{\numberline {1.3}Objectives of the Risk Assessment and Incident Response Plan}{iv}{}%
+\contentsline {section}{\numberline {1.4}Methodology Overview}{iv}{}%
 \contentsline {section}{\numberline {1.5}Structure of the Report}{v}{}%
-\contentsline {chapter}{\numberline {2}Establishing the Context}{vii}{}%
-\contentsline {section}{\numberline {2.1}Introduction to PowerPlus and Information Security Context}{vii}{}%
-\contentsline {section}{\numberline {2.2}Scope of the Risk Assessment}{vii}{}%
-\contentsline {subsection}{\numberline {2.2.1}Objectives}{vii}{}%
-\contentsline {subsection}{\numberline {2.2.2}Assets and Resources}{vii}{}%
-\contentsline {section}{\numberline {2.3}Risk Environment and Threat Landscape}{vii}{}%
-\contentsline {subsection}{\numberline {2.3.1}Stakeholders}{vii}{}%
-\contentsline {section}{\numberline {2.4}Risk Management Framework and Methodology}{vii}{}%
-\contentsline {section}{\numberline {2.5}Justification for Approach}{vii}{}%
+\contentsline {chapter}{\numberline {2}Establishing the Context}{vi}{}%
+\contentsline {section}{\numberline {2.1}Overview of the Risk Management Context}{vi}{}%
+\contentsline {section}{\numberline {2.2}Scope and Boundaries of the Risk Assessment}{vi}{}%
+\contentsline {subsection}{\numberline {2.2.1}Objectives of the Risk Assessment}{vi}{}%
+\contentsline {section}{\numberline {2.3}Organizational Context of PowerPlus}{vii}{}%
+\contentsline {section}{\numberline {2.4}Risk Environment and Threat Landscape}{vii}{}%
+\contentsline {subsection}{\numberline {2.4.1}Stakeholders and Their Roles in Risk Management}{vii}{}%
+\contentsline {section}{\numberline {2.5}Risk Management Framework and Methodology}{viii}{}%
+\contentsline {section}{\numberline {2.6}Justification for the Approach}{viii}{}%
 \contentsline {chapter}{\numberline {3}Risk Assessment}{ix}{}%
-\contentsline {chapter}{\numberline {4}Incident Scenarios}{xi}{}%
-\contentsline {chapter}{\numberline {5}SOC Preparation}{xiii}{}%
-\contentsline {chapter}{\numberline {6}Conclusions}{xv}{}%
+\contentsline {chapter}{\numberline {4}Incident Scenarios}{x}{}%
+\contentsline {chapter}{\numberline {5}SOC Preparation}{xi}{}%
+\contentsline {chapter}{\numberline {6}Conclusions}{xii}{}%
