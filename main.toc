@@ -15,6 +15,10 @@
 \contentsline {section}{\numberline {2.5}Risk Management Framework and Methodology}{viii}{}%
 \contentsline {section}{\numberline {2.6}Justification for the Approach}{viii}{}%
 \contentsline {chapter}{\numberline {3}Risk Assessment}{ix}{}%
+\contentsline {section}{\numberline {3.1}Risk Identification}{ix}{}%
+\contentsline {section}{\numberline {3.2}Risk Analysis}{ix}{}%
+\contentsline {section}{\numberline {3.3}Risk Evaluation}{ix}{}%
 \contentsline {chapter}{\numberline {4}Incident Scenarios}{x}{}%
 \contentsline {chapter}{\numberline {5}SOC Preparation}{xi}{}%
+\contentsline {section}{\numberline {5.1}Incident Response Cases}{xi}{}%
 \contentsline {chapter}{\numberline {6}Conclusions}{xii}{}%
