@@ -56,6 +56,8 @@ INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT .\main.aux
 INPUT .\main.aux
 INPUT main.aux
@@ -135,6 +137,7 @@ OUTPUT chapters\EstablishingContext.aux
 INPUT .\chapters\EstablishingContext.tex
 INPUT .\chapters\EstablishingContext.tex
 INPUT chapters\EstablishingContext.tex
+INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\chapters\RiskAssessment.tex
 INPUT .\chapters\RiskAssessment.tex
 OUTPUT chapters\RiskAssessment.aux
@@ -188,3 +191,5 @@ INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.24)  30 NOV 2024 00:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.24)  4 DEC 2024 21:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -131,36 +131,44 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count284
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count285
+) (C:\Users\l3tim\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen157
+\enit@toks=\toks24
+\enit@inbox=\box56
+\enit@count@id=\count286
+\enitdp@description=\count287
 ) (main.aux (chapters/Introduction.aux) (chapters/EstablishingContext.aux) (chapters/RiskAssessment.aux) (chapters/IncidentScenarios.aux) (chapters/SOCPreparation.aux) (chapters/Conclusions.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
  (C:\Users\l3tim\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen157
-\scratchbox=\box56
-\nofMPsegments=\count287
-\nofMParguments=\count288
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen158
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count288
+\scratchdimen=\dimen158
+\scratchbox=\box57
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen159
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks26
 ) (C:\Users\l3tim\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -172,21 +180,21 @@ Package caption Info: End \AtBeginDocument code.
 <./figures/logo_ciencias.png, id=1, 436.63126pt x 228.855pt>
 File: ./figures/logo_ciencias.png Graphic file (type png)
 <use ./figures/logo_ciencias.png>
-Package pdftex.def Info: ./figures/logo_ciencias.png  used on input line 60.
+Package pdftex.def Info: ./figures/logo_ciencias.png  used on input line 61.
 (pdftex.def)             Requested size: 436.63019pt x 228.85443pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 60.
+(Font)              <17.28> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 60.
+(Font)              <12> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 60.
+(Font)              <8> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 60.
+(Font)              <6> on input line 61.
 
 
 [1
@@ -233,16 +241,28 @@ Chapter 2.
 
 ]
 
-[7])
+[7]
+Overfull \hbox (0.9584pt too wide) in paragraph at lines 97--97
+|\OT1/cmr/bx/n/14.4 2.4 Es-tab-lish-ing and main-tain-ing in-for-ma-tion se-cu-rity risk cri-
+ []
+
+
 
 [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[9])
+
+[10]
 \openout2 = `chapters/RiskAssessment.aux'.
 
  (chapters/RiskAssessment.tex
 Chapter 3.
 )
 
-[9
+[11
 
 
 
@@ -254,7 +274,7 @@ Chapter 3.
 Chapter 4.
 )
 
-[10
+[12
 
 
 
@@ -266,7 +286,7 @@ Chapter 4.
 Chapter 5.
 )
 
-[11
+[13
 
 
 
@@ -278,7 +298,7 @@ Chapter 5.
 Chapter 6.
 )
 
-[12
+[14
 
 
 
@@ -290,17 +310,17 @@ L3 programming layer <2024-09-10>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4470 strings out of 473898
- 84608 string characters out of 5726478
- 558676 words of memory out of 5000000
- 27275 multiletter control sequences out of 15000+600000
- 565715 words of font info for 61 fonts, out of 8000000 for 9000
+ 4800 strings out of 473898
+ 90291 string characters out of 5726478
+ 565195 words of memory out of 5000000
+ 27600 multiletter control sequences out of 15000+600000
+ 566061 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,12n,93p,714b,312s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\l3tim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (12 pages, 105029 bytes).
+ 79i,12n,93p,714b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\l3tim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (14 pages, 127074 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

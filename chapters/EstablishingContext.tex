@@ -1,74 +1,144 @@
 \chapter{Establishing the Context}
 
-\section{Overview of the Risk Management Context}
+\section{Organizational considerations}
 
-In establishing an effective risk management framework for PowerPlus, it is essential to align the context of the risk strategy with the overall organizational context, as outlined in ISO 31000. 
-This involves creating clear risk criteria that consider both internal and external factors, types of risks, and appropriate measurement and control processes. 
-The risk management approach should not operate in isolation but as an integral part of PowerPlus’s daily operations and strategic goals.
-The risk context will be defined to include the scope of PowerPlus’s business environment, regulatory obligations, and key security challenges, drawing on ISO/IEC 27005:2022 and ISO/IEC 27001:2022 to structure the approach. 
+\subsection{Definition and Structure of the Organization}
+PowerPlus is defined as a group of entities working collaboratively to achieve its objectives within the energy sector. It includes internal and external teams:
 
-\section{Scope and Boundaries of the Risk Assessment}
-
-This risk assessment is constrained by the data available for PowerPlus, focusing primarily on information security and IT risk management. Given PowerPlus’s complex infrastructure, the scope of the assessment will cover:
 \begin{itemize}
-    \item \textbf{Critical assets}, including data, physical assets, and technological infrastructure.
-    \item \textbf{Key processes and systems}, particularly those integral to security operations, data integrity, and business continuity.
-    \item \textbf{Regulatory and compliance requirements}, especially those relevant to the energy sector and data privacy.
+    \item \textbf{Internal Workforce:} 10,000 employees working across corporate IT, operational technology (OT), and various business units.
+    \item \textbf{External Workforce:} 5,000 external collaborators, supporting application maintenance, operations, and projects.
 \end{itemize}
 
-\subsection{Objectives of the Risk Assessment}
+PowerPlus operates as a multifaceted organization encompassing IT and OT domains, with a central Corporate IT structure managing information security and risk management, and decentralized OT operations supported by individual subsidiaries.
 
-The primary objectives of this risk assessment are to:
-\begin{enumerate}
-    \item Identify significant risks that could impact PowerPlus’s operations, data integrity, and reputation.
-    \item Propose initial steps to enhance PowerPlus’s incident response readiness.
-    \item Provide a foundation for developing an integrated risk management strategy in alignment with ISO 31000 principles.
-\end{enumerate}
+\subsection{Risk Appetite and Governance}
+PowerPlus's risk appetite is influenced by its:
 
-\section{Organizational Context of PowerPlus}
-
-PowerPlus is a critical player in the energy sector, with operations spanning across multiple countries and regulatory environments. 
-The company manages a substantial infrastructure, serving millions of electricity and gas customers, and faces stringent requirements for maintaining operational integrity and data protection. 
-The organizational context includes:
 \begin{itemize}
-    \item \textbf{Business Objectives}: PowerPlus aims to expand geographically, increase its share of renewable energy, drive digital transformation in operations, maintaining risk under control and to create proximity channels with the client in order to antecipate needs and to serve with mpre quality.
-    \item \textbf{Stakeholders}: Key stakeholders include executive leadership, IT and SOC teams, regulatory bodies, third-party vendors, and PowerPlus’s customer base.
-    \item \textbf{Regulatory Compliance}: PowerPlus must adhere to regulations such as GDPR for data privacy and industry-specific requirements from entities like ENISA.
+    \item \textbf{Size and Complexity:} Operating in 12 countries, the organization serves 20 million electricity customers and 1.3 million gas customers, necessitating a robust risk framework.
+    \item \textbf{Sectoral Dynamics:} Operating under stringent energy regulations in Europe and the Americas.
+    \item \textbf{Strategic Goals:} Objectives such as digital transformation, renewable energy expansion, and maintaining controlled risks highlight a balanced approach to risk acceptance and mitigation.
 \end{itemize}
 
-\section{Risk Environment and Threat Landscape}
+\subsection{Risk Ownership}
 
-Given PowerPlus’s position in the energy sector, the organization faces an evolving landscape of threats that encompass internal and external risks:
+PowerPlus ensures that risk ownership is clearly defined within its governance framework:
+
 \begin{itemize}
-    \item \textbf{Cyber Threats}: Phishing, ransomware, and DDoS attacks are prevalent, with PowerPlus’s reliance on OT and IT systems exposing it to IoT vulnerabilities and legacy system risks.
-    \item \textbf{Insider Threats and Third-Party Risks}: Involvement of external contractors and vendors introduces data breach and security lapse risks.
-    \item \textbf{Physical Security Risks}: Environmental hazards and sabotage pose threats to PowerPlus’s data centers and infrastructure.
+    \item \textbf{Accountability and Authority:} Risk owners, primarily at the corporate and business unit levels, are entrusted with the authority and responsibility to manage identified risks.
+    \item \textbf{Specialized Departments:} The PP Risk Department and the Security Operations Center (SOC) play pivotal roles in overseeing and mitigating risks related to cybersecurity, operational disruptions, and compliance.
 \end{itemize}
 
-\subsection{Stakeholders and Their Roles in Risk Management}
+\section{Identifying Basic Requirements of Interested Parties}
 
-Stakeholders play a critical role in PowerPlus’s risk management efforts, contributing to security awareness, policy enforcement, and incident response:
+\subsection*{A) Description of Information Security Controls Adopted by the Organization (PowerPlus) to Ensure Compliance with the ISO/IEC 27001:2022 Standard}
+
+PowerPlus adopts a series of information security controls aligned with the requirements of the ISO/IEC 27001:2022 standard, with a focus on protecting the confidentiality, integrity, and availability of information and organizational assets. The main controls are presented below, considering the organizational structure, technological reality, and challenges faced by PowerPlus.
+
+\subsection*{Organizational Controls:}
+
 \begin{itemize}
-    \item \textbf{Executive Leadership}: Responsible for approving and supporting the risk management strategy and allocating resources.
-    \item  \textbf{IT and SOC Teams}: Tasked with implementing security controls, monitoring incidents, and ensuring compliance.
-    \item \textbf{Customers and Regulatory Authorities}: Customers rely on PowerPlus for secure services, while regulatory authorities enforce compliance standards.
-    \item \textbf{Third-Party Vendors}: Vendors provide critical support but also increase the company’s exposure to external risks.
+    \item \textbf{Information Security Policies (5.1):} PowerPlus has information security policies communicated and understood by all employees and stakeholders. The policies are aligned with corporate objectives and the ISO/IEC 27001:2022 standard.
+    \item \textbf{Identity and Access Management (5.16, 5.18):} The company uses strict processes for access control, including the use of identity and access management tools. This involves managing the user lifecycle and assigning permissions in critical systems.
+    \item \textbf{Supplier Management (5.19, 5.20):} PowerPlus ensures that information security is monitored across the entire supplier chain, with specific controls for data protection, especially with suppliers who maintain the applications used by the company.
+    \item \textbf{Security Incident Management (5.24 to 5.27):} PowerPlus operates a 24/7 \textit{Security Operations Center (SOC)} that monitors cybersecurity incidents in real-time, performing detection, response, and learning from previous incidents, using tools like \textit{SIEM (Security Information and Event Management)}.
 \end{itemize}
+
+\subsection*{Human Controls:}
+
+\begin{itemize}
+    \item \textbf{Training and Awareness (6.3):} PowerPlus promotes continuous information security training for all employees, ensuring that everyone is up to date with policies and procedures related to security. The \textit{Information Security and IT Risk Management} department coordinates this training.
+    \item \textbf{Disciplinary Process (6.4):} A formal disciplinary process is in place to handle security violations, ensuring that infractions are dealt with in an appropriate and transparent manner.
+    \item \textbf{Post-Termination Responsibilities (6.5):} When an employee leaves the organization or changes roles, their security responsibilities are maintained and monitored to avoid risks to the organization.
+\end{itemize}
+
+\subsection*{Physical Controls:}
+
+\begin{itemize}
+    \item \textbf{Physical Security and Perimeters (7.1, 7.2):} PowerPlus adopts stringent physical security measures to protect sensitive areas from unauthorized access. Physical security is managed by one of the companies within the PowerPlus group and integrates appropriate perimeter control.
+    \item \textbf{Protection Against Environmental Threats (7.5):} Critical infrastructure, including data centers and OT (Operational Technology) systems, is designed to withstand environmental threats such as natural disasters and ensure business continuity.
+\end{itemize}
+
+\subsection*{Technological Controls:}
+
+\begin{itemize}
+    \item \textbf{Protection Against Malware (8.7):} PowerPlus implements robust solutions to protect against malware, complemented by continuous awareness and education programs for employees.
+    \item \textbf{Technical Vulnerability Management (8.8):} The \textit{Security Operations Center} continuously assesses vulnerabilities and applies necessary corrections to mitigate risks. Penetration tests and forensic analysis are also periodically conducted.
+    \item \textbf{Network and System Security (8.20, 8.21):} PowerPlus rigorously manages and monitors its networks and systems, ensuring that communication and data traffic are secure. \textit{Oracle} and \textit{SAP} technologies are widely used within the organization, with intensive access control and monitoring.
+\end{itemize}
+
+
+
+
+\section{Applying risk assesment}
+
+PowerPlus incorporates risk assessments across various organizational processes to ensure comprehensive risk management. These processes include:
+
+\begin{itemize}
+    \item \textbf{Project Management:} Evaluating risks associated with implementing new projects, such as integrating renewable energy solutions or expanding into new geographies.
+
+    \item \textbf{Vulnerability Management:} Regularly assessing technological vulnerabilities, especially within its operational technology (OT) and IT systems, which are managed under distinct domains.
+
+    \item \textbf{Incident Management:} The Security Operations Center (SOC) operates 24/7 to detect, assess, and manage cybersecurity incidents, utilizing SIEM tools to analyze data from over 100 technological components.
+
+    \item \textbf{Problem Management:} Addressing recurring issues, such as vulnerabilities in legacy SAP applications.
+
+    \item \textbf{Impromptu Risk Assessments:} Tackling specific ad-hoc concerns, such as risks associated with BYOD policies or cloud services managing personal data.
+\end{itemize}
+
+% The primary objectives of this risk assessment are to:
+% \begin{enumerate}
+%     \item Identify significant risks that could impact PowerPlus’s operations, data integrity, and reputation.
+%     \item Propose initial steps to enhance PowerPlus’s incident response readiness.
+%     \item Provide a foundation for developing an integrated risk management strategy in alignment with ISO 31000 principles.
+% \end{enumerate}
+
+\section{Establishing and maintaining information security risk criteria}
+
+\subsection{General}
+PowerPlus establishes and maintains information security risk criteria based on the requirements of ISO/IEC 27001:2022 ((section 6.1.2.a)) and ISO/IEC 27005:2022. These criteria are designed to ensure that:
+\begin{itemize}
+    \item Risks are assessed consistently, ensuring reliable and comparable results.
+    \item Decisions on risk treatment and acceptance are aligned with strategic objectives and organizational capacity.
+\end{itemize}
+The criteria used are as follows:
+\begin{itemize}
+    \item Impact on organizational objectives - Here the potential costs of an outage (e.g., lost revenue, regulatory fines) are evaluated in financial terms. The reputational impact if the incident happens is also assessed.  In addition, the impact that the risk will have on the continuity of the company's services is analysed and whether we are going against specific rules of the energy sector in this case.
+    \item Likelihood - A historical analysis is made to understand the probability that the risk will have to happen.
+    \item CIA - The potential leakage of sensitive information (confidentiality) is analyzed. In addition to data leakage, it is necessary to understand if the data remains accurate and reliable, so as not to affect integrity. Finally, it is also important to understand the company's availability when suffering a certain attack.
+    \item Response time and recovery - Another important criteria is the time that the sistem that to recover from an incident.
+    \item Combination e Risk Sequence - Analyze how multiple risks can occur simultaneously.
+\end{itemize}
+
+\subsection{Risk acceptance criteria}
+
+% Given PowerPlus’s position in the energy sector, the organization faces an evolving landscape of threats that encompass internal and external risks:
+% \begin{itemize}
+%     \item \textbf{Cyber Threats}: Phishing, ransomware, and DDoS attacks are prevalent, with PowerPlus’s reliance on OT and IT systems exposing it to IoT vulnerabilities and legacy system risks.
+%     \item \textbf{Insider Threats and Third-Party Risks}: Involvement of external contractors and vendors introduces data breach and security lapse risks.
+%     \item \textbf{Physical Security Risks}: Environmental hazards and sabotage pose threats to PowerPlus’s data centers and infrastructure.
+% \end{itemize}
+
+\subsection{Criteria for performing information security risk assessments}
+
+% Stakeholders play a critical role in PowerPlus’s risk management efforts, contributing to security awareness, policy enforcement, and incident response:
+% \begin{itemize}
+%     \item \textbf{Executive Leadership}: Responsible for approving and supporting the risk management strategy and allocating resources.
+%     \item  \textbf{IT and SOC Teams}: Tasked with implementing security controls, monitoring incidents, and ensuring compliance.
+%     \item \textbf{Customers and Regulatory Authorities}: Customers rely on PowerPlus for secure services, while regulatory authorities enforce compliance standards.
+%     \item \textbf{Third-Party Vendors}: Vendors provide critical support but also increase the company’s exposure to external risks.
+% \end{itemize}
 \pagebreak
 
-\section{Risk Management Framework and Methodology}
+\subsubsection{General}
 
-PowerPlus’s risk management framework will be developed in alignment with ISO/IEC 27005:2022 and ISO 31000 standards, ensuring a structured and consistent approach:
-\begin{itemize}
-    \item \textbf{Risk Assessment}: A comprehensive risk assessment will be conducted, focusing on identifying, analyzing, and evaluating risks specific to PowerPlus.
-    \item \textbf{Risk Identification}: Key threats, vulnerabilities, and potential impacts on PowerPlus will be identified.
-    \item \textbf{Risk Analysis}: Each identified risk will be assessed in terms of its likelihood and potential impact on the organization.
-    \item \textbf{Risk Evaluation}: Risks will be prioritized based on their assessed impact and likelihood, allowing PowerPlus to focus resources on the most significant threats.
-    \item \textbf{Risk Treatment}: Initial recommendations for risk treatment will be proposed, aligning with best practices from ISO/IEC 27001:2022 for implementing security controls.
-\end{itemize}
+\subsubsection{Consequence Criteria}
+
+\subsubsection{Likelihood Criteria}
+
+\subsubsection{Criteria for determining the level of risk}
+
+\section{Choosing an appropriate method}
 
 \section{Justification for the Approach}
-
-ISO/IEC and ISO 31000 standards are foundational for this risk assessment as they provide well-established frameworks for identifying, analyzing, and treating risks in critical infrastructure environments. 
-These standards ensure that PowerPlus’s approach is comprehensive, systematic, and adaptable to its unique operational and regulatory context. The chosen methodologies are suited to PowerPlus’s needs, given the limited data available and the high importance of regulatory compliance in the energy sector.
-Limitations due to data availability will be addressed by focusing on risk scenarios that are well-supported by the information provided. This approach allows for a realistic yet thorough assessment, enabling PowerPlus to take actionable steps toward effective risk management.
