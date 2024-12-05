@@ -2,6 +2,8 @@
 
 \section*{Security Operations Center (SOC) Functions – PowerPlus}
 
+\section*{1. Aspects to be Monitored by the SOC}
+
 \subsection*{ Log Collection}
 \textbf{Description:} \\
 PowerPlus must implement centralized log collection from all critical systems, including servers, databases, IT/OT applications, network devices, and BYOD endpoints. \\
@@ -106,12 +108,89 @@ Provide insights to senior management on PowerPlus’s security posture and area
     \item Present key performance indicators (KPIs), such as Mean Time to Detect (MTTD) and Mean Time to Respond (MTTR).
 \end{itemize}
 
-\section*{Conclusion}
-The SOC at PowerPlus should operate as a strategic unit responsible for protecting the organization's critical infrastructure against cyber threats. By implementing the functions described, the SOC will be capable of:
+\section*{2. Incident Response Cases}
+
+This section presents three detailed incident scenarios focusing on the response actions taken by the SOC.
+
+\subsection{Incident Response Case 1: Ransomware Attack on IT Infrastructure}
+
+\textbf{Description:}  
+A ransomware attack encrypts critical IT systems, including production servers and databases that store customers' personal data.
+
+\textbf{Impact:}  
 \begin{itemize}
-    \item Monitoring and correlating security events in real-time.
-    \item Responding quickly and effectively to critical incidents.
-    \item Anticipating new threats based on threat intelligence and continuous research.
-    \item Providing detailed reports to support strategic security decisions.
+    \item Unavailability of billing and CRM systems.
+    \item Potential leakage of personal data from 6 million customers.
 \end{itemize}
-This approach will ensure that PowerPlus maintains secure operations, minimizing risks to customers, employees, and critical assets.
+
+\textbf{Response Procedure:}
+\begin{enumerate}
+    \item Initial detection by the SIEM, which identified anomalous activities on the production servers.
+    \item Immediate isolation of the affected systems to prevent the ransomware from spreading.
+    \item Execution of backups to restore critical systems.
+    \item Communication with cloud providers to ensure the security of cloud environments.
+\end{enumerate}
+
+\textbf{Lessons Learned:}
+\begin{itemize}
+    \item Implement stricter network segmentation.
+    \item Regularly update backup policies.
+\end{itemize}
+
+\subsection{Incident Response Case 2: Phishing Attack Targeting Employees}
+
+\textbf{Description:}  
+A phishing campaign targets Call Center employees to steal credentials for accessing internal systems.
+
+\textbf{Impact:}  
+\begin{itemize}
+    \item Unauthorized access to customers' personal data.
+    \item Potential compromise of administrative accounts.
+\end{itemize}
+
+\textbf{Response Procedure:}
+\begin{enumerate}
+    \item SIEM detects suspicious logins from unknown IP addresses.
+    \item Immediate blocking of compromised accounts and password resets.
+    \item Notification and training of employees about the phishing campaign.
+    \item Review of SIEM correlation rules to detect similar patterns in the future.
+\end{enumerate}
+
+\textbf{Lessons Learned:}
+\begin{itemize}
+    \item Implement Multi-Factor Authentication (MFA) for all critical systems.
+    \item Increase the frequency of security awareness training.
+\end{itemize}
+
+\subsection{Incident Response Case 3: Remote Access Breach on OT Systems}
+
+\textbf{Description:}  
+Unauthorized remote access to OT systems through compromised credentials of third-party vendors.
+
+\textbf{Impact:}  
+\begin{itemize}
+    \item Risk of compromise to energy control systems.
+    \item Potential disruption in the energy supply to customers.
+\end{itemize}
+
+\textbf{Response Procedure:}
+\begin{enumerate}
+    \item SIEM detects repeated login attempts outside vendors' working hours.
+    \item Blocking of remote access and notification to OT system managers.
+    \item Audit of access logs to identify potential compromises.
+    \item Implementation of secure remote access solutions (VPNs and zero trust policies).
+\end{enumerate}
+
+\textbf{Lessons Learned:}
+\begin{itemize}
+    \item Improve network segmentation between IT and OT environments.
+    \item Establish stricter remote access policies for third-party vendors.
+\end{itemize}
+
+\section*{Conclusion}
+
+Establishing an efficient Security Operations Center (SOC) is crucial for PowerPlus to address cybersecurity risks. Centralized log collection, event correlation, threat intelligence, and continuous innovation are key to detecting and mitigating security incidents. The incident response cases highlight the importance of swift actions and adopting best practices such as network segmentation and employee training. With a robust SOC, PowerPlus will be better equipped to protect its infrastructure and data, ensuring the continuity of critical operations.
+
+
+
+

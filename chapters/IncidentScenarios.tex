@@ -1,1 +1,60 @@
 \chapter{Incident Scenarios}
+
+This chapter conceptualizes three potential attack scenarios that the PowerPlus SOC might face, highlighting the tactics, techniques, and procedures (TTPs) adversaries may employ. For each scenario, the attack phases and potential impact are described.
+
+\section{Scenario 1: Supply Chain Attack on Software Update Process}
+
+\textbf{Description:} \\
+A threat actor compromises the software update process of a third-party vendor used by PowerPlus, embedding malicious code into a critical system update. The malicious update is installed on PowerPlus servers, creating a backdoor that allows attackers to exfiltrate sensitive data and move laterally across the IT and OT environments.
+
+\textbf{Attack Phases:}
+\begin{enumerate}
+    \item Initial Compromise: Exploitation of vulnerabilities in the vendor's development environment.
+    \item Propagation: Malicious updates are distributed to PowerPlus.
+    \item Execution: Backdoor activation, data exfiltration, and lateral movement within the network.
+\end{enumerate}
+
+\textbf{Potential Impact:}
+\begin{itemize}
+    \item Unauthorized access to sensitive customer and operational data.
+    \item Risk of manipulation of OT systems, disrupting energy distribution.
+    \item Reputational damage due to breach disclosure.
+\end{itemize}
+
+\section{Scenario 2: Insider Threat Exploiting Privileged Access}
+
+\textbf{Description:} \\
+A disgruntled employee with privileged access to PowerPlus's IT infrastructure sabotages critical systems by deleting customer databases and encrypting backups. The insider also disables monitoring tools to delay detection.
+
+\textbf{Attack Phases:}
+\begin{enumerate}
+    \item Preparation: Employee plans the attack by identifying high-value assets and disabling security measures.
+    \item Execution: Deletion of databases and encryption of backup systems.
+    \item Obfuscation: Disabling of monitoring tools to delay response.
+\end{enumerate}
+
+\textbf{Potential Impact:}
+\begin{itemize}
+    \item Loss of critical customer data, affecting 6 million clients.
+    \item Disruption of business operations, including billing and CRM systems.
+    \item Significant financial and reputational losses.
+\end{itemize}
+
+\section{Scenario 3: Distributed Denial of Service (DDoS) Attack Targeting OT Systems}
+
+\textbf{Description:} \\
+A group of hacktivists launches a large-scale DDoS attack against PowerPlus's OT infrastructure, targeting energy distribution management systems. The attack aims to overwhelm systems with traffic, causing operational disruptions and potential blackouts.
+
+\textbf{Attack Phases:}
+\begin{enumerate}
+    \item Reconnaissance: Hacktivists identify IP addresses and vulnerabilities in exposed OT systems.
+    \item Attack Launch: Botnets flood OT systems with traffic to overwhelm resources.
+    \item Sustainment: Attackers maintain high traffic volumes to prolong downtime.
+\end{enumerate}
+
+\textbf{Potential Impact:}
+\begin{itemize}
+    \item Disruption of energy distribution to residential and industrial customers.
+    \item Financial losses due to service interruptions and SLA penalties.
+    \item Decreased trust from regulators and customers.
+\end{itemize}

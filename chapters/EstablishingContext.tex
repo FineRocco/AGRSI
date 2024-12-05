@@ -158,14 +158,27 @@ Criteria for performing information security risk assessments is essential to de
 Here are the consequence criteria for PowerPlus, taking into account the company's context in the renewable energy sector and its technological operations:
 
 \begin{itemize}
-    \item Impact on physical safety and life \- Risks involving physical harm or loss of life are considered serious and unacceptable.
-    \item Impact on critical operations and business continuity \- Disruption of essential processes (such as power generation or customer service) can cause significant financial and operational damage.
-    \item Financial impact \- Financial losses, such as monetary damages or high recovery costs, are a severe consequence.
-    \item Damage to reputation and public trust \- Incidents that affect public image, such as data leakage or service failures, can result in loss of customers and trust.
-    \item Impact on regulatory and legal compliance \- Violations of laws or regulations can result in legal penalties and severe fines.
-    \item Environmental impact \- Operational failures that cause damage to the environment are serious consequences, especially due to the commitment to sustainability.
-    \item Loss of competitive advantage \- The loss of strategic information can affect the company's position in the market and its competitive advantage.    
+    \item \textbf{Minor:} Negligible consequences for PowerPlus. \\
+    No significant operational impact on energy generation activities and no risks to the safety of people or property. \\
+    \textit{Example:} A minor failure in a secondary system that consumes operational margins but does not affect the organization’s objectives.
+    
+    \item \textbf{Significant:} Limited but relevant consequences for PowerPlus. \\
+    Partial degradation of activities, such as temporary reductions in energy generation efficiency, without endangering the safety of people or assets. \\
+    \textit{Example:} A failure in a single wind turbine causing reduced output but allowing continued operation in a degraded mode.
+    
+    \item \textbf{Serious:} Substantial consequences for PowerPlus. \\
+    Significant operational degradation with potential implications for the safety of people or assets. \\
+    \textit{Example:} Simultaneous failures in several energy assets resulting in a disruption of a significant portion of energy supply, creating severe operational challenges but no direct impact on the energy sector as a whole.
+    
+    \item \textbf{Critical:} Disastrous consequences for PowerPlus. \\
+    Inability to maintain essential activities, with serious consequences for the safety of people or property. \\
+    \textit{Example:} A catastrophic failure in a solar plant leading to fires or significant damage, threatening the company’s continuity and possibly impacting sectors reliant on the energy provided.
+    
+    \item \textbf{Catastrophic:} Consequences beyond PowerPlus, affecting the energy sector or society at large. \\
+    Substantial impact on the renewable energy sector, with potential regulatory or environmental implications. \\
+    \textit{Example:} A major incident involving the company’s infrastructure, causing severe environmental pollution or widespread energy outages, affecting critical sectors and requiring governmental response.
 \end{itemize}
+
 
 \subsubsection{Likelihood Criteria}
 
@@ -183,17 +196,45 @@ In this section on Likelihood criteria, the objective is to define how the proba
 
 \textbf{Probability measurement}
 
-For PowerPlus, a good probability scale would be the qualitative scale of 3 levels, considering the context of the renewable energy company. The scale would be:
+To measure the likelihood of risks at PowerPlus, the following qualitative scale will be used:
 
-\begin{enumerate}
-    \item Low - Less than a 10\% chance of occurring.
-    \item Medium - Between 10\% and 30\% chance of occurring.
-    \item High - More than 30\% chance of occurring
-\end{enumerate}
+\begin{itemize}
+    \item \textbf{0 - Not Applicable:} 0\% likelihood in the next 12 months. \textit{(Will never happen)}.
+    \item \textbf{1 - Rare:} 5\% likelihood in the next 12 months. \textit{(May happen once every 20 years)}.
+    \item \textbf{2 - Unlikely:} 25\% likelihood in the next 12 months. \textit{(May happen once every 10 years)}.
+    \item \textbf{3 - Moderate:} 50\% likelihood in the next 12 months. \textit{(May happen once every 5 years)}.
+    \item \textbf{4 - Likely:} 75\% likelihood in the next 12 months. \textit{(May happen once every year)}.
+    \item \textbf{5 - Almost Certain:} 100\% likelihood in the next 12 months. \textit{(May happen multiple times a year)}.
+\end{itemize}
 
 To determine the chance of a risk occurring, we can look at how often similar events have occurred in the past. If, for example, technological failures or operational failures have already occurred several times, the chance of occurrence increases.
 
 \subsubsection{Criteria for determining the level of risk}
+
+The level of risk is determined by analyzing the combination of the likelihood of an event occurring and the severity of its consequences. The following matrix will guide the risk evaluation process:
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+\textbf{Likelihood}   & \textbf{Catastrophic} & \textbf{Critical} & \textbf{Serious} & \textbf{Significant} & \textbf{Minor} \\ \hline
+\textbf{Almost certain} & Very high           & Very high          & High             & High                 & Medium         \\ \hline
+\textbf{Likely}         & Very high           & High               & High             & Medium               & Low            \\ \hline
+\textbf{Moderate}       & High                & High               & Medium           & Low                  & Low            \\ \hline
+\textbf{Unlikely}       & Medium              & Medium             & Low              & Low                  & Very low       \\ \hline
+\textbf{Rare}           & Low                 & Low                & Low              & Very low             & Very low       \\ \hline
+\textbf{Not applicable} & Very low            & Very low           & Very low         & Very low             & Very low       \\ \hline
+\end{tabular}
+\caption{Risk Level Matrix for PowerPlus}
+\end{table}
+
+\textbf{Explanation of the Risk Matrix:}
+\begin{itemize}
+    \item \textbf{Likelihood Levels:} The likelihood of an event is categorized into six levels: Almost certain, Likely, Moderate, Unlikely, Rare, and Not applicable, as defined earlier.
+    \item \textbf{Consequence Levels:} Consequences are categorized from Catastrophic to Minor, as defined in the consequence criteria.
+    \item \textbf{Risk Ratings:} The intersection of likelihood and consequence determines the risk rating (e.g., Very High, High, Medium, Low, Very Low).
+    \item \textbf{Purpose:} This matrix helps prioritize risks, ensuring that resources are allocated to mitigate the most critical risks effectively.
+\end{itemize}
 
 \section{Choosing an Appropriate Method for Information Security Risk Assessment at PowerPlus}
 
