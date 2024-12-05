@@ -1,17 +1,128 @@
 \chapter{Risk Assessment}
 
-% Present the results of the various stages of risk assessment based on ISO/IEC 27005:2022.
-% Describe the methodology used for:
-% - Risk identification
-% - Risk analysis
-% - Risk evaluation
-% Provide a table or list of the eight most important risks and potential controls.
+\section{Risk identification}
 
-\section{Risk Identification}
-% Use ISO/IEC 27005:2022 concepts to explain how risks were identified.
+Risk identification is a critical component of the overall risk assessment process. The following eight risks are identified as the most significant for PowerPlus, based on its organizational and technological context, in alignment with ISO/IEC 27005:2022:
+
+\begin{enumerate}
+    \item \textbf{Data Breaches Affecting Personal Data}
+    \begin{itemize}
+        \item \textit{Description:} With 20 applications handling 6 million customer records and the use of cloud services (SaaS and IaaS), there is a high risk of data breaches compromising customer data confidentiality.
+        \item \textit{Proposed Control:} Implement robust encryption, multi-factor authentication (MFA), and regular audits of data access policies.
+        \item \textit{Risk Owner:} Data Protection Officer (DPO) or Information Security Manager.
+        \item \textit{Reason:} Responsible for overseeing compliance with data protection regulations and managing risks related to customer data confidentiality.
+    \end{itemize}
+
+    \item \textbf{Unsecured Remote Maintenance for OT Systems}
+    \begin{itemize}
+        \item \textit{Description:} Operational Technology (OT) systems rely on remote maintenance through vendor-contracted services, exposing them to potential vulnerabilities in external access points.
+        \item \textit{Proposed Control:} Enforce strict VPN configurations, role-based access control, and monitor remote maintenance activities with real-time logging.
+        \item \textit{Risk Owner:} Head of Operational Technology (OT) Security
+        \item \textit{Reason:} Accountable for the security of OT systems and ensuring that remote access by external vendors is managed securely.
+    \end{itemize}
+
+    \item \textbf{Inadequate Management of Legacy Systems}
+    \begin{itemize}
+        \item \textit{Description:} PowerPlus uses legacy SAP technologies over 15 years old, which are prone to vulnerabilities due to outdated components.
+        \item \textit{Proposed Control:} Implement a phased modernization plan for legacy systems and deploy virtual patching solutions to mitigate risks in the interim.
+        \item \textit{Risk Owner:} IT Infrastructure Manager
+        \item \textit{Reason:} Oversees the maintenance and modernization of legacy systems and ensures continuity and security during transitions.
+    \end{itemize}
+
+    \item \textbf{BYOD Policy Risks}
+    \begin{itemize}
+        \item \textit{Description:} The Bring Your Own Device (BYOD) policy, without restrictions on platforms or devices, poses risks of unauthorized access and data leaks.
+        \item \textit{Proposed Control:} Deploy Mobile Device Management (MDM) tools and enforce endpoint security measures.
+        \item \textit{Risk Owner:} IT Policy and Compliance Manager
+        \item \textit{Reason:} Accountable for enforcing IT policies, including BYOD standards, and ensuring endpoint security compliance.
+    \end{itemize}
+
+    \item \textbf{Physical and Logical Separation Challenges in Data Centers}
+    \begin{itemize}
+        \item \textit{Description:} The data centers, despite being distanced 100 km apart, may face risks related to improper disaster recovery configurations or simultaneous environmental hazards.
+        \item \textit{Proposed Control:} Regularly test disaster recovery plans, enhance redundancy systems, and improve environmental monitoring.
+        \item \textit{Risk Owner:} Data Center Operations Manager
+        \item \textit{Reason:} Responsible for ensuring physical and logical security, disaster recovery planning, and minimizing environmental hazards.
+    \end{itemize}
+
+    \item \textbf{Insider Threats in Call Center Operations}
+    \begin{itemize}
+        \item \textit{Description:} Call centers with 300 agents require access to internal systems, increasing the risk of insider threats, including unauthorized data access or misuse.
+        \item \textit{Proposed Control:} Implement strict identity and access management (IAM) systems and conduct periodic employee training on security protocols.
+        \item \textit{Risk Owner:} Call Center Operations Manager
+        \item \textit{Reason:} Accountable for managing access to internal systems by call center employees and mitigating potential insider threats.
+    \end{itemize}
+
+    \item \textbf{Complexity in Identity and Access Management (IAM)}
+    \begin{itemize}
+        \item \textit{Description:} Managing user lifecycles and access for 200 applications poses risks of misconfigurations and unauthorized access.
+        \item \textit{Proposed Control:} Centralize IAM with automated provisioning and de-provisioning, coupled with periodic access reviews.
+        \item \textit{Risk Owner:} Identity and Access Management Lead
+        \item \textit{Reason:} Directly responsible for implementing and maintaining centralized IAM systems and overseeing periodic access reviews.
+    \end{itemize}
+
+    \item \textbf{Insufficient Threat Detection Capabilities}
+    \begin{itemize}
+        \item \textit{Description:} Despite a 24/7 Security Operations Center (SOC) and SIEM tools, correlating events across 100 components might lead to undetected threats due to insufficient resources or system limitations.
+        \item \textit{Proposed Control:} Enhance threat detection capabilities by integrating AI-driven analytics and increasing SOC workforce capacity.
+        \item \textit{Risk Owner:} Security Operations Center (SOC) Manager
+        \item \textit{Reason:} Manages the SOC team and ensures threat detection and response capabilities are effective and aligned with organizational needs.
+    \end{itemize}
+\end{enumerate}
 
 \section{Risk Analysis}
-% Explain the analysis of identified risks, including their impact and likelihood.
+
+The following is a hybrid analysis of the identified risks, evaluating their consequences and likelihood using a combination of qualitative and quantitative criteria:
+
+\begin{enumerate}
+    \item \textbf{Data Breaches Affecting Personal Data}
+    \begin{itemize}
+        \item \textbf{Consequence:} High (quantitative estimate: Potential fines of up to €10M or 2\% of global revenue under GDPR, significant reputational damage, and loss of customer trust).
+        \item \textbf{Likelihood:} Medium (qualitative estimate: Several vulnerabilities in cloud services and 20 applications, but strong encryption and MFA reduce the probability).
+    \end{itemize}
+
+    \item \textbf{Unsecured Remote Maintenance for OT Systems}
+    \begin{itemize}
+        \item \textbf{Consequence:} High (quantitative estimate: Operational disruptions costing €500K per day, plus regulatory penalties for outages in critical infrastructure).
+        \item \textbf{Likelihood:} High (qualitative estimate: Dependence on external vendors, remote access vulnerabilities, and insufficient monitoring increase the risk of exploitation).
+    \end{itemize}
+
+    \item \textbf{Inadequate Management of Legacy Systems}
+    \begin{itemize}
+        \item \textbf{Consequence:} Medium (quantitative estimate: Costs to address outages and patch vulnerabilities could reach €200K annually, along with potential productivity losses).
+        \item \textbf{Likelihood:} High (qualitative estimate: Legacy systems are inherently prone to vulnerabilities due to outdated software and lack of updates).
+    \end{itemize}
+
+    \item \textbf{BYOD Policy Risks}
+    \begin{itemize}
+        \item \textbf{Consequence:} Medium (quantitative estimate: Data leaks or breaches from unsecured devices could cost up to €150K, affecting customer data or intellectual property).
+        \item \textbf{Likelihood:} Medium (qualitative estimate: Unrestricted platforms increase the risk, but MDM tools can mitigate exposure).
+    \end{itemize}
+
+    \item \textbf{Physical and Logical Separation Challenges in Data Centers}
+    \begin{itemize}
+        \item \textbf{Consequence:} High (quantitative estimate: A dual data center failure could result in recovery costs exceeding €1M and disrupt services for millions of customers).
+        \item \textbf{Likelihood:} Low (qualitative estimate: Well-maintained disaster recovery plans and geographical separation reduce the probability of simultaneous failures).
+    \end{itemize}
+
+    \item \textbf{Insider Threats in Call Center Operations}
+    \begin{itemize}
+        \item \textbf{Consequence:} Medium (quantitative estimate: Misuse of sensitive customer data could lead to fines and reputational harm amounting to €200K annually).
+        \item \textbf{Likelihood:} Medium (qualitative estimate: Insider risks are persistent but mitigated through IAM and employee training).
+    \end{itemize}
+
+    \item \textbf{Complexity in Identity and Access Management (IAM)}
+    \begin{itemize}
+        \item \textbf{Consequence:} Medium (quantitative estimate: Misconfigurations could lead to unauthorized access incidents costing €300K annually).
+        \item \textbf{Likelihood:} High (qualitative estimate: Complexity and lack of centralized systems increase the likelihood of errors and misconfigurations).
+    \end{itemize}
+
+    \item \textbf{Insufficient Threat Detection Capabilities}
+    \begin{itemize}
+        \item \textbf{Consequence:} High (quantitative estimate: A significant undetected cyberattack could lead to losses exceeding €1M, including downtime, recovery costs, and fines).
+        \item \textbf{Likelihood:} High (qualitative estimate: Limited SOC resources and dependency on manual monitoring raise the probability of missing key threats).
+    \end{itemize}
+\end{enumerate}
 
 \section{Risk Evaluation}
 % Rank the identified risks and justify their importance.

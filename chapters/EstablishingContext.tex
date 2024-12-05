@@ -68,7 +68,23 @@ PowerPlus adopts a series of information security controls aligned with the requ
     \item \textbf{Network and System Security (8.20, 8.21):} PowerPlus rigorously manages and monitors its networks and systems, ensuring that communication and data traffic are secure. \textit{Oracle} and \textit{SAP} technologies are widely used within the organization, with intensive access control and monitoring.
 \end{itemize}
 
+\subsection*{D) Specific international and/or national regulations}
+PowerPlus is subject to strict regulations due to its operations in the energy sector across different regions, including Europe and the American continent. These regulations aim to ensure the security, data privacy, and continuity of operations in a highly critical sector.
 
+\subsection*{E) The organization's internal security rules}
+PowerPlus has established internal security rules that cover various aspects of information security, including the following:
+
+\begin{itemize}
+    \item Ensures proper control of the user lifecycle and access rights to applications and systems.
+    \item  Monitors security incidents 24/7, conducts forensic analysis, manages vulnerabilities, and promotes security awareness among employees.
+    \item  Managed through a centralized SIEM (Security Information and Event Management) system, correlating data from more than 100 technological components.
+\end{itemize}
+
+\subsection*{F) Security rules and controls from contracts or agreements:}
+PowerPlus applies stringent security controls in contracts with suppliers, particularly regarding the maintenance of its applications and protection of personal data. These controls ensure continuity of IT services and compliance with security regulations.
+
+\subsection*{G) Security controls implemented based on previous risk treatment activities:}
+The company implements security controls based on prior risk assessments, utilizing the Security Operations Center (SOC) and a SIEM system for monitoring and managing incidents and vulnerabilities. These controls also include identity and access management, ensuring continuous protection of data and systems.
 
 
 \section{Applying risk assesment}
@@ -87,13 +103,6 @@ PowerPlus incorporates risk assessments across various organizational processes 
     \item \textbf{Impromptu Risk Assessments:} Tackling specific ad-hoc concerns, such as risks associated with BYOD policies or cloud services managing personal data.
 \end{itemize}
 
-% The primary objectives of this risk assessment are to:
-% \begin{enumerate}
-%     \item Identify significant risks that could impact PowerPlus’s operations, data integrity, and reputation.
-%     \item Propose initial steps to enhance PowerPlus’s incident response readiness.
-%     \item Provide a foundation for developing an integrated risk management strategy in alignment with ISO 31000 principles.
-% \end{enumerate}
-
 \section{Establishing and maintaining information security risk criteria}
 
 \subsection{General}
@@ -104,41 +113,122 @@ PowerPlus establishes and maintains information security risk criteria based on 
 \end{itemize}
 The criteria used are as follows:
 \begin{itemize}
-    \item Impact on organizational objectives - Here the potential costs of an outage (e.g., lost revenue, regulatory fines) are evaluated in financial terms. The reputational impact if the incident happens is also assessed.  In addition, the impact that the risk will have on the continuity of the company's services is analysed and whether we are going against specific rules of the energy sector in this case.
-    \item Likelihood - A historical analysis is made to understand the probability that the risk will have to happen.
-    \item CIA - The potential leakage of sensitive information (confidentiality) is analyzed. In addition to data leakage, it is necessary to understand if the data remains accurate and reliable, so as not to affect integrity. Finally, it is also important to understand the company's availability when suffering a certain attack.
-    \item Response time and recovery - Another important criteria is the time that the sistem that to recover from an incident.
-    \item Combination e Risk Sequence - Analyze how multiple risks can occur simultaneously.
+    \item Impact on organizational objectives \- Here the potential costs of an outage (e.g., lost revenue, regulatory fines) are evaluated in financial terms. The reputational impact if the incident happens is also assessed.  In addition, the impact that the risk will have on the continuity of the company's services is analysed and whether we are going against specific rules of the energy sector in this case.
+    \item Likelihood \- A historical analysis is made to understand the probability that the risk will have to happen.
+    \item CIA \- The potential leakage of sensitive information (confidentiality) is analyzed. In addition to data leakage, it is necessary to understand if the data remains accurate and reliable, so as not to affect integrity. Finally, it is also important to understand the company's availability when suffering a certain attack.
+    \item Response time and recovery \- Another important criteria is the time that the sistem that to recover from an incident.
+    \item Combination e Risk Sequence \- Analyze how multiple risks can occur simultaneously.
 \end{itemize}
 
 \subsection{Risk acceptance criteria}
 
-% Given PowerPlus’s position in the energy sector, the organization faces an evolving landscape of threats that encompass internal and external risks:
-% \begin{itemize}
-%     \item \textbf{Cyber Threats}: Phishing, ransomware, and DDoS attacks are prevalent, with PowerPlus’s reliance on OT and IT systems exposing it to IoT vulnerabilities and legacy system risks.
-%     \item \textbf{Insider Threats and Third-Party Risks}: Involvement of external contractors and vendors introduces data breach and security lapse risks.
-%     \item \textbf{Physical Security Risks}: Environmental hazards and sabotage pose threats to PowerPlus’s data centers and infrastructure.
-% \end{itemize}
+Risk acceptance criteria sets out the guidelines that PowerPlus uses to determine whether an identified risk is acceptable or requires further treatment. These criteria are key to ensuring consistency in the risk management process, aligning risk acceptance decisions with risk appetite, strategic objectives, and organizational constraints.
+In this section, acceptable risk levels, authorities responsible for taking such decisions, conditions for risk acceptance and review and adjustment of criteria will be defined. 
+
+\textbf{Risk Levels}
+
+Low risks have a low probability of occurrence and reduced impact. Generally, these risks do not affect critical systems such as OT and IT, nor regulatory compliance. Because they are considered of little relevance, they can be accepted without the need for additional measures.
+Medium risks have a moderate probability or impact. While not critical, they can cause significant disruptions to important processes such as internal IT operations or customer service. These risks are analyzed more closely and generally accepted based on existing controls, but they are regularly monitored to prevent them from evolving to more critical levels.
+High risks, on the other hand, have a high probability of occurrence and/or serious impact. These risks can compromise the continuity of critical services, lead to regulatory breaches, or cause the loss of sensitive customer data. Due to their severity, these risks are not directly accepted and require immediate treatment, such as the implementation of additional controls or specific mitigation measures.
+
+\textbf{Risk Acceptance Authority}
+
+At PowerPlus, risk acceptance is distributed according to severity and hierarchical level. Low risks are accepted by operational managers, while medium risks require approval from directors, especially if they affect strategic systems. High risks, which can compromise critical systems or violate regulations, are analyzed by senior management or the risk committee. This structure ensures decisions aligned with the organization's strategic objectives and risk appetite.
+
+\textbf{Conditional acceptance}
+
+For example, a risk associated with a legacy system may be temporarily accepted while a technology refresh plan is being executed. Similarly, conditional acceptance can be applied in scenarios where a high risk is unavoidable, but mitigation strategies such as contingency plans or enhanced monitoring are in place to minimize potential impacts.
+These conditions ensure flexibility in risk management, without compromising PowerPlus' security or regulatory compliance.
+
+\textbf{Review and Adjustment of Criteria}
+
+PowerPlus' risk acceptance criteria will be reviewed annually to ensure that they remain aligned with changes in the organizational context, such as technological upgrades, regulatory changes, or changes in strategic objectives. This includes an ongoing analysis of factors such as new cyber threats, modifications to business processes, and the evolution of IT and OT infrastructure.
+
+The review of the criteria also considers feedback from security incidents or resilience tests carried out by the organization, adjusting the acceptance criteria as necessary. With this, PowerPlus ensures that its risk acceptance criteria remain effective, ensuring the continuous protection of critical assets and compliance with legal obligations.
+
 
 \subsection{Criteria for performing information security risk assessments}
 
-% Stakeholders play a critical role in PowerPlus’s risk management efforts, contributing to security awareness, policy enforcement, and incident response:
-% \begin{itemize}
-%     \item \textbf{Executive Leadership}: Responsible for approving and supporting the risk management strategy and allocating resources.
-%     \item  \textbf{IT and SOC Teams}: Tasked with implementing security controls, monitoring incidents, and ensuring compliance.
-%     \item \textbf{Customers and Regulatory Authorities}: Customers rely on PowerPlus for secure services, while regulatory authorities enforce compliance standards.
-%     \item \textbf{Third-Party Vendors}: Vendors provide critical support but also increase the company’s exposure to external risks.
-% \end{itemize}
-\pagebreak
-
 \subsubsection{General}
+
+Criteria for performing information security risk assessments is essential to define clear and consistent criteria for the assessment of information security risks, ensuring that risks are analyzed effectively. These criteria aim to determine the significance of risks in terms of their consequences, probability of occurrence and level of risk. The definition of such criteria must consider factors such as the classification of information, the quantity and concentration of data, the strategic importance of the business processes involved, as well as the operational criticism of the availability, confidentiality, and integrity of information.
 
 \subsubsection{Consequence Criteria}
 
+Here are the consequence criteria for PowerPlus, taking into account the company's context in the renewable energy sector and its technological operations:
+
+\begin{itemize}
+    \item Impact on physical safety and life \- Risks involving physical harm or loss of life are considered serious and unacceptable.
+    \item Impact on critical operations and business continuity \- Disruption of essential processes (such as power generation or customer service) can cause significant financial and operational damage.
+    \item Financial impact \- Financial losses, such as monetary damages or high recovery costs, are a severe consequence.
+    \item Damage to reputation and public trust \- Incidents that affect public image, such as data leakage or service failures, can result in loss of customers and trust.
+    \item Impact on regulatory and legal compliance \- Violations of laws or regulations can result in legal penalties and severe fines.
+    \item Environmental impact \- Operational failures that cause damage to the environment are serious consequences, especially due to the commitment to sustainability.
+    \item Loss of competitive advantage \- The loss of strategic information can affect the company's position in the market and its competitive advantage.    
+\end{itemize}
+
 \subsubsection{Likelihood Criteria}
+
+In this section on Likelihood criteria, the objective is to define how the probability of a risk occurring will be assessed. That is, we need to specify how the company will determine the chance of a risk occurring based on different factors. To do that it is necessary to specify the factors that can influence the probability and to show how a probability is going to be measure, using a scale.
+
+\textbf{Factors that can influence the probability}
+
+\begin{itemize}
+    \item Accidental or natural events \- Natural disasters or industrial accidents can increase the likelihood of service disruptions.
+    \item Exposure of information or assets \- Exposure of critical data or systems to the internet or threats increases risk.
+    \item Exploitable vulnerabilities \- Security flaws or outdated systems make risks more likely.
+    \item Technology failures \- Hardware or software problems, common in power systems, increase the risk of operational failures.
+    \item Human errors \- Failures due to negligence or lack of training can increase the likelihood of incidents.    
+\end{itemize}
+
+\textbf{Probability measurement}
+
+For PowerPlus, a good probability scale would be the qualitative scale of 3 levels, considering the context of the renewable energy company. The scale would be:
+
+\begin{enumerate}
+    \item Low - Less than a 10\% chance of occurring.
+    \item Medium - Between 10\% and 30\% chance of occurring.
+    \item High - More than 30\% chance of occurring
+\end{enumerate}
+
+To determine the chance of a risk occurring, we can look at how often similar events have occurred in the past. If, for example, technological failures or operational failures have already occurred several times, the chance of occurrence increases.
 
 \subsubsection{Criteria for determining the level of risk}
 
+The purpose of the criteria for determining the level of risk is to provide a clear framework for assessing the severity and urgency of the identified risks, allowing those responsible for risk management to decide what action to take. These criteria help prioritize which risks need to be addressed more quickly and carefully, based on the potential impact to the organization. The level of risk is determined by a combination of the consequences and the probability of a security event occurring, and this assessment is essential to ensure that resources are allocated efficiently, focusing on the risks that are most critical to the organization's objectives and operations.
+
+For PowerPlus, a qualitative risk level scale can be defined with the following five levels:
+
+\begin{itemize}
+    \item Very High \- Risks that can result in serious damage to the company's safety, operation, or reputation, which could compromise business continuity. These are critical risks that require immediate and priority action for mitigation.
+    \item High \- Risks that can cause significant damage, but with impacts that can be managed with immediate corrective actions. They require urgent treatment to avoid escalation.
+    \item Medium \- Risks that have a moderate impact. They can affect the company's operation or reputation, but the damage is limited. Corrective actions must be planned, but they are not urgent.
+    \item Low \- Risks with limited impact and easily controllable, without major effects on operation or safety. Corrective action can be postponed and monitored.
+    \item Very Low \- Insignificant risks that have little or no impact on the company's operations. The probability of occurrence is minimal and, if they occur, the impact is marginal.
+\end{itemize}
+
+When determining the level of risk for PowerPlus, it is critical to consider not only the consequences and likelihood of occurrence, but also other important factors that may influence the risk assessment. These include:
+
+\begin{itemize}
+    \item Strategic, tactical, and operational impact \- Assessing how risk may affect the company's strategic objectives, critical operations, or tactical processes, such as maintaining energy infrastructure.
+    \item Compliance with legal and regulatory requirements \- Ensure that risks are assessed in terms of their ability to generate non-compliance with laws, regulations or standards applicable to the renewable energy sector.
+    \item Contractual obligations \- Consider the risks related to non-compliance with contractual commitments, such as interruptions of services agreed with customers or partners.
+    \item Indirect or external impacts \- Assess risks that, although outside the direct scope of the organization, may cause harm to third parties, such as business partners or the community, especially in the case of environmental failures or interruptions in energy supply.
+\end{itemize}
+
 \section{Choosing an appropriate method}
 
-\section{Justification for the Approach}
+No contexto da PowerPlus, a escolha de um método para a gestão de riscos de segurança da informação deve alinhar-se com a abordagem geral de gestão de riscos da organização, conforme indicado pela norma ISO/IEC 27001:2022. Esse método deve garantir que as avaliações de risco, feitas repetidamente, sejam consistentes, válidas e comparáveis.
+
+\textbf{Consistência:}
+
+As avaliações de risco devem ser realizadas de forma padronizada, para que os mesmos riscos, quando avaliados por diferentes pessoas ou em momentos distintos, produzam resultados semelhantes. Para a PowerPlus, isso pode ser alcançado utilizando ferramentas como o SIEM (Security Information and Event Management), que já integra dados de diversas fontes tecnológicas para monitoramento contínuo e consistente de incidentes de segurança.
+
+\textbf{Comparabilidade:}
+
+A PowerPlus deve definir critérios claros de avaliação de risco, considerando os riscos tanto da área de TI quanto de OT (Tecnologia Operacional). Isso pode incluir o uso de uma matriz de risco que classifique o impacto e a probabilidade dos riscos, permitindo que diferentes tipos de riscos, como os cibernéticos e operacionais, sejam comparados de maneira objetiva.
+
+\textbf{Validade:}
+
+As avaliações devem refletir com precisão a realidade operacional da PowerPlus. Para isso, a empresa deve realizar avaliações de risco periódicas, com base em cenários reais e com dados atualizados sobre vulnerabilidades, ameaças e impactos, utilizando a infraestrutura existente, como os 200 aplicativos e os 6M de dados pessoais manipulados.
+

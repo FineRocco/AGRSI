@@ -11,22 +11,21 @@
 \contentsline {subsection}{\numberline {2.1.2}Risk Appetite and Governance}{vi}{}%
 \contentsline {subsection}{\numberline {2.1.3}Risk Ownership}{vi}{}%
 \contentsline {section}{\numberline {2.2}Identifying Basic Requirements of Interested Parties}{vii}{}%
-\contentsline {section}{\numberline {2.3}Applying risk assesment}{viii}{}%
+\contentsline {section}{\numberline {2.3}Applying risk assesment}{ix}{}%
 \contentsline {section}{\numberline {2.4}Establishing and maintaining information security risk criteria}{ix}{}%
 \contentsline {subsection}{\numberline {2.4.1}General}{ix}{}%
-\contentsline {subsection}{\numberline {2.4.2}Risk acceptance criteria}{ix}{}%
-\contentsline {subsection}{\numberline {2.4.3}Criteria for performing information security risk assessments}{ix}{}%
-\contentsline {subsubsection}{General}{x}{}%
-\contentsline {subsubsection}{Consequence Criteria}{x}{}%
-\contentsline {subsubsection}{Likelihood Criteria}{x}{}%
-\contentsline {subsubsection}{Criteria for determining the level of risk}{x}{}%
-\contentsline {section}{\numberline {2.5}Choosing an appropriate method}{x}{}%
-\contentsline {section}{\numberline {2.6}Justification for the Approach}{x}{}%
-\contentsline {chapter}{\numberline {3}Risk Assessment}{xi}{}%
-\contentsline {section}{\numberline {3.1}Risk Identification}{xi}{}%
-\contentsline {section}{\numberline {3.2}Risk Analysis}{xi}{}%
-\contentsline {section}{\numberline {3.3}Risk Evaluation}{xi}{}%
-\contentsline {chapter}{\numberline {4}Incident Scenarios}{xii}{}%
-\contentsline {chapter}{\numberline {5}SOC Preparation}{xiii}{}%
-\contentsline {section}{\numberline {5.1}Incident Response Cases}{xiii}{}%
-\contentsline {chapter}{\numberline {6}Conclusions}{xiv}{}%
+\contentsline {subsection}{\numberline {2.4.2}Risk acceptance criteria}{x}{}%
+\contentsline {subsection}{\numberline {2.4.3}Criteria for performing information security risk assessments}{xi}{}%
+\contentsline {subsubsection}{General}{xi}{}%
+\contentsline {subsubsection}{Consequence Criteria}{xi}{}%
+\contentsline {subsubsection}{Likelihood Criteria}{xi}{}%
+\contentsline {subsubsection}{Criteria for determining the level of risk}{xii}{}%
+\contentsline {section}{\numberline {2.5}Choosing an appropriate method}{xiii}{}%
+\contentsline {chapter}{\numberline {3}Risk Assessment}{xv}{}%
+\contentsline {section}{\numberline {3.1}Risk identification}{xv}{}%
+\contentsline {section}{\numberline {3.2}Risk Analysis}{xvii}{}%
+\contentsline {section}{\numberline {3.3}Risk Evaluation}{xviii}{}%
+\contentsline {chapter}{\numberline {4}Incident Scenarios}{xix}{}%
+\contentsline {chapter}{\numberline {5}SOC Preparation}{xx}{}%
+\contentsline {section}{\numberline {5.1}Incident Response Cases}{xx}{}%
+\contentsline {chapter}{\numberline {6}Conclusions}{xxi}{}%
