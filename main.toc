@@ -20,12 +20,15 @@
 \contentsline {subsubsection}{Consequence Criteria}{xi}{}%
 \contentsline {subsubsection}{Likelihood Criteria}{xi}{}%
 \contentsline {subsubsection}{Criteria for determining the level of risk}{xii}{}%
-\contentsline {section}{\numberline {2.5}Choosing an appropriate method}{xiii}{}%
-\contentsline {chapter}{\numberline {3}Risk Assessment}{xv}{}%
-\contentsline {section}{\numberline {3.1}Risk identification}{xv}{}%
-\contentsline {section}{\numberline {3.2}Risk Analysis}{xvii}{}%
-\contentsline {section}{\numberline {3.3}Risk Evaluation}{xviii}{}%
-\contentsline {chapter}{\numberline {4}Incident Scenarios}{xix}{}%
-\contentsline {chapter}{\numberline {5}SOC Preparation}{xx}{}%
-\contentsline {section}{\numberline {5.1}Incident Response Cases}{xx}{}%
-\contentsline {chapter}{\numberline {6}Conclusions}{xxi}{}%
+\contentsline {section}{\numberline {2.5}Choosing an Appropriate Method for Information Security Risk Assessment at PowerPlus}{xii}{}%
+\contentsline {subsection}{\numberline {2.5.1}Consistency}{xii}{}%
+\contentsline {subsection}{\numberline {2.5.2} Comparability}{xiii}{}%
+\contentsline {subsection}{\numberline {2.5.3} Validity}{xiii}{}%
+\contentsline {chapter}{\numberline {3}Risk Assessment}{xiv}{}%
+\contentsline {section}{\numberline {3.1}Risk identification}{xiv}{}%
+\contentsline {section}{\numberline {3.2}Risk Analysis}{xvi}{}%
+\contentsline {section}{\numberline {3.3}Risk Evaluation}{xvii}{}%
+\contentsline {subsection}{\numberline {3.3.1}Prioritizing the Analyzed Risks for Risk Treatment}{xviii}{}%
+\contentsline {chapter}{\numberline {4}Incident Scenarios}{xx}{}%
+\contentsline {chapter}{\numberline {5}SOC Preparation}{xxi}{}%
+\contentsline {chapter}{\numberline {6}Conclusions}{xxv}{}%

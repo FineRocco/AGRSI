@@ -77,66 +77,104 @@ The following is a hybrid analysis of the identified risks, evaluating their con
 \begin{enumerate}
     \item \textbf{Data Breaches Affecting Personal Data}
     \begin{itemize}
-        \item \textbf{Consequence:} High (quantitative estimate: Potential fines of up to €10M or 2\% of global revenue under GDPR, significant reputational damage, and loss of customer trust).
-        \item \textbf{Likelihood:} Medium (qualitative estimate: Several vulnerabilities in cloud services and 20 applications, but strong encryption and MFA reduce the probability).
+        \item \textbf{Consequence:} 4 - Critical (Quantitative estimate: Potential fines of up to €10M or 2\% of global revenue under GDPR, significant reputational damage, and loss of customer trust).
+        \item \textbf{Likelihood:} 3 - Moderate (50\% likely in the next 12 months. May happen once every 5 years).
+        \item \textbf{Level of Risk:} High (Combination of critical consequences and moderate likelihood).
     \end{itemize}
 
     \item \textbf{Unsecured Remote Maintenance for OT Systems}
     \begin{itemize}
-        \item \textbf{Consequence:} High (quantitative estimate: Operational disruptions costing €500K per day, plus regulatory penalties for outages in critical infrastructure).
-        \item \textbf{Likelihood:} High (qualitative estimate: Dependence on external vendors, remote access vulnerabilities, and insufficient monitoring increase the risk of exploitation).
+        \item \textbf{Consequence:} 5 - Catastrophic (Quantitative estimate: Operational disruptions costing €500K per day, plus regulatory penalties for outages in critical infrastructure).
+        \item \textbf{Likelihood:} 4 - Likely (75\% likely in the next 12 months. May happen once every year).
+        \item \textbf{Level of Risk:} Very High (Combination of catastrophic consequences and likely likelihood).
     \end{itemize}
 
     \item \textbf{Inadequate Management of Legacy Systems}
     \begin{itemize}
-        \item \textbf{Consequence:} Medium (quantitative estimate: Costs to address outages and patch vulnerabilities could reach €200K annually, along with potential productivity losses).
-        \item \textbf{Likelihood:} High (qualitative estimate: Legacy systems are inherently prone to vulnerabilities due to outdated software and lack of updates).
+        \item \textbf{Consequence:} 3 - Serious (Quantitative estimate: Costs to address outages and patch vulnerabilities could reach €200K annually, along with potential productivity losses).
+        \item \textbf{Likelihood:} 4 - Likely (75\% likely in the next 12 months. May happen once every year).
+        \item \textbf{Level of Risk:} High (Combination of serious consequences and likely likelihood).
     \end{itemize}
 
     \item \textbf{BYOD Policy Risks}
     \begin{itemize}
-        \item \textbf{Consequence:} Medium (quantitative estimate: Data leaks or breaches from unsecured devices could cost up to €150K, affecting customer data or intellectual property).
-        \item \textbf{Likelihood:} Medium (qualitative estimate: Unrestricted platforms increase the risk, but MDM tools can mitigate exposure).
+        \item \textbf{Consequence:} 2 - Significant (Quantitative estimate: Data leaks or breaches from unsecured devices could cost up to €150K, affecting customer data or intellectual property).
+        \item \textbf{Likelihood:} 3 - Moderate (50\% likely in the next 12 months. May happen once every 5 years).
+        \item \textbf{Level of Risk:} Medium (Combination of significant consequences and moderate likelihood).
     \end{itemize}
 
     \item \textbf{Physical and Logical Separation Challenges in Data Centers}
     \begin{itemize}
-        \item \textbf{Consequence:} High (quantitative estimate: A dual data center failure could result in recovery costs exceeding €1M and disrupt services for millions of customers).
-        \item \textbf{Likelihood:} Low (qualitative estimate: Well-maintained disaster recovery plans and geographical separation reduce the probability of simultaneous failures).
+        \item \textbf{Consequence:} 4 - Critical (Quantitative estimate: A dual data center failure could result in recovery costs exceeding €1M and disrupt services for millions of customers).
+        \item \textbf{Likelihood:} 2 - Unlikely (25\% likely in the next 12 months. May happen once every 10 years).
+        \item \textbf{Level of Risk:} Medium (Combination of critical consequences and unlikely likelihood).
     \end{itemize}
 
     \item \textbf{Insider Threats in Call Center Operations}
     \begin{itemize}
-        \item \textbf{Consequence:} Medium (quantitative estimate: Misuse of sensitive customer data could lead to fines and reputational harm amounting to €200K annually).
-        \item \textbf{Likelihood:} Medium (qualitative estimate: Insider risks are persistent but mitigated through IAM and employee training).
+        \item \textbf{Consequence:} 3 - Serious (Quantitative estimate: Misuse of sensitive customer data could lead to fines and reputational harm amounting to €200K annually).
+        \item \textbf{Likelihood:} 3 - Moderate (50\% likely in the next 12 months. May happen once every 5 years).
+        \item \textbf{Level of Risk:} Medium (Combination of serious consequences and moderate likelihood).
     \end{itemize}
 
     \item \textbf{Complexity in Identity and Access Management (IAM)}
     \begin{itemize}
-        \item \textbf{Consequence:} Medium (quantitative estimate: Misconfigurations could lead to unauthorized access incidents costing €300K annually).
-        \item \textbf{Likelihood:} High (qualitative estimate: Complexity and lack of centralized systems increase the likelihood of errors and misconfigurations).
+        \item \textbf{Consequence:} 3 - Serious (Quantitative estimate: Misconfigurations could lead to unauthorized access incidents costing €300K annually).
+        \item \textbf{Likelihood:} 4 - Likely (75\% likely in the next 12 months. May happen once every year).
+        \item \textbf{Level of Risk:} High (Combination of serious consequences and likely likelihood).
     \end{itemize}
 
     \item \textbf{Insufficient Threat Detection Capabilities}
     \begin{itemize}
-        \item \textbf{Consequence:} High (quantitative estimate: A significant undetected cyberattack could lead to losses exceeding €1M, including downtime, recovery costs, and fines).
-        \item \textbf{Likelihood:} High (qualitative estimate: Limited SOC resources and dependency on manual monitoring raise the probability of missing key threats).
+        \item \textbf{Consequence:} 5 - Catastrophic (Quantitative estimate: A significant undetected cyberattack could lead to losses exceeding €1M, including downtime, recovery costs, and fines).
+        \item \textbf{Likelihood:} 4 - Likely (75\% likely in the next 12 months. May happen once every year).
+        \item \textbf{Level of Risk:} Very High (Combination of catastrophic consequences and likely likelihood).
     \end{itemize}
 \end{enumerate}
 
 \section{Risk Evaluation}
-% Rank the identified risks and justify their importance.
-% Use concrete controls if appropriate to mitigate the risks.
 
-% Example of a table for risk assessment:
-% \begin{table}[h]
-% \centering
-% \begin{tabular}{|l|l|l|l|}
-% \hline
-% \textbf{Risk ID} & \textbf{Description} & \textbf{Impact} & \textbf{Likelihood} \\
-% \hline
-% R1 & Example Risk & High & Medium \\
-% \hline
-% \end{tabular}
-% \caption{Risk Assessment Summary}
-% \end{table}
+\subsection*{Comparing the Results of Risk Analysis with the Risk Criteria}
+
+The purpose of this section is to compare the results of the risk analysis with PowerPlus’s defined risk acceptance criteria. This ensures that identified risks are aligned with the organization’s risk appetite, strategic objectives, and operational constraints.
+
+\begin{itemize}
+    \item Risk acceptance criteria, as defined in Section 2.4.2, including thresholds for low, medium, and high risks.
+    \item Risks with assigned level values based on the combination of consequences and likelihood.
+\end{itemize}
+
+The results of this comparison are summarized as follows:
+
+\begin{itemize}
+    \item \textbf{Data Breaches Affecting Personal Data:} Categorized as a \textbf{High Risk}. Requires immediate treatment to prevent regulatory breaches and reputational harm. Suggested actions include strengthening encryption, performing regular audits, and enhancing access controls.
+    \item \textbf{Unsecured Remote Maintenance for OT Systems:} Categorized as a \textbf{High Risk}. Immediate treatment is critical to secure remote access and prevent exploitation. Recommended actions include strict VPN configurations, role-based access, and real-time monitoring.
+    \item \textbf{Inadequate Management of Legacy Systems:} Categorized as a \textbf{High Risk}. Conditional acceptance is possible while implementing a technology refresh plan. Virtual patching and strict monitoring are essential during the transition.
+    \item \textbf{BYOD Policy Risks:} Categorized as a \textbf{Medium Risk}. Accepted based on existing MDM controls and endpoint monitoring but requires periodic review to ensure no escalation.
+    \item \textbf{Physical and Logical Separation Challenges in Data Centers:} Categorized as a \textbf{Medium Risk}. Accepted based on the adequacy of current disaster recovery measures and geographical separation.
+    \item \textbf{Insider Threats in Call Center Operations:} Categorized as a \textbf{Medium Risk}. Accepted with ongoing monitoring and regular employee training to mitigate insider threats.
+    \item \textbf{Complexity in Identity and Access Management (IAM):} Categorized as a \textbf{High Risk}. Requires treatment to reduce misconfiguration and unauthorized access incidents. Centralized IAM implementation is a priority.
+    \item \textbf{Insufficient Threat Detection Capabilities:} Categorized as a \textbf{High Risk}. Immediate treatment is critical to improve SOC operations and implement advanced threat detection tools.
+\end{itemize}
+
+\subsection{Prioritizing the Analyzed Risks for Risk Treatment}
+
+The risks are prioritized for treatment based on the assessed levels, organizational objectives, and the views of relevant stakeholders.
+
+The prioritization of risks for treatment is determined as follows:
+\begin{itemize}
+    \item \textbf{High Risks:} Immediate priority for treatment. These risks are escalated to senior management or the risk committee for decision-making and action planning.
+    \item \textbf{Medium Risks:} Treated based on a case-by-case analysis of existing controls. Monitoring and periodic reviews are critical to prevent escalation.
+    \item \textbf{Low Risks:} Accepted without additional measures but monitored for any changes in conditions or context.
+\end{itemize}
+
+A prioritized list of risks is provided below:
+\begin{enumerate}
+    \item \textbf{Unsecured Remote Maintenance for OT Systems}: High
+    \item \textbf{Insufficient Threat Detection Capabilities}: High
+    \item \textbf{Data Breaches Affecting Personal Data}: High
+    \item \textbf{Inadequate Management of Legacy Systems}: High
+    \item \textbf{Complexity in Identity and Access Management (IAM)}: High
+    \item \textbf{BYOD Policy Risks}: Medium
+    \item \textbf{Insider Threats in Call Center Operations}: Medium
+    \item \textbf{Physical and Logical Separation Challenges in Data Centers}: Medium
+\end{enumerate}

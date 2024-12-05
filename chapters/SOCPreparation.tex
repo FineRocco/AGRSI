@@ -1,14 +1,117 @@
 \chapter{SOC Preparation}
 
-% Describe the aspects to be monitored by the Security Operations Center (SOC).
-% Provide a high-level description of its architecture and tools used.
-% Explain how the SOC integrates with risk management to identify incidents.
+\section*{Security Operations Center (SOC) Functions – PowerPlus}
 
-\section{Incident Response Cases}
-% Detail three incident response cases. Use the following format:
-% - Case 1: [Incident name]
-%   [Description of the incident, SOC response actions, and resolution steps]
-% - Case 2: [Incident name]
-% - Case 3: [Incident name]
+\subsection*{ Log Collection}
+\textbf{Description:} \\
+PowerPlus must implement centralized log collection from all critical systems, including servers, databases, IT/OT applications, network devices, and BYOD endpoints. \\
 
-% Use references where applicable to justify methodology and incident response plans.
+\textbf{Objective:} \\
+Enable real-time monitoring of security events, providing a comprehensive view of activities across the infrastructure. \\
+
+\textbf{Recommendations:}
+\begin{itemize}
+    \item Integrate 200 applications and OT devices with the SIEM solution for log collection.
+    \item Capture critical logs related to remote access by external vendors responsible for OT system maintenance.
+\end{itemize}
+
+\subsection*{ Aggregation/Correlation}
+\textbf{Description:} \\
+PowerPlus must correlate security events from different sources to identify patterns that may indicate threats. \\
+
+\textbf{Objective:} \\
+Detect complex attacks that might go unnoticed in isolated analyses. \\
+
+\textbf{Recommendations:}
+\begin{itemize}
+    \item Configure correlation rules to monitor unauthorized access between IT and OT systems, preventing lateral movement between critical environments.
+    \item Monitor the 20 applications handling personal data of 6 million customers for suspicious activities.
+\end{itemize}
+
+\subsection*{ SIEM (Security Information and Event Management)}
+\textbf{Description:} \\
+PowerPlus already utilizes a SIEM platform for security event integration and correlation. The SIEM will be the core of the SOC, aggregating, analyzing, and alerting on potential incidents. \\
+
+\textbf{Objective:} \\
+Provide a centralized view of security operations and detect threats in real-time. \\
+
+\textbf{Recommendations:}
+\begin{itemize}
+    \item Ensure that the SIEM is configured to integrate logs from 1,500 production servers, as well as critical cloud applications (SaaS and IaaS).
+    \item Regularly review and update correlation rules in the SIEM based on new attack scenarios.
+\end{itemize}
+
+\subsection*{ Threat Intelligence}
+\textbf{Description:} \\
+PowerPlus should integrate threat intelligence feeds into the SOC to anticipate new attacks and vulnerabilities. \\
+
+\textbf{Objective:} \\
+Enhance the SOC's proactive capability to prevent incidents before they occur. \\
+
+\textbf{Recommendations:}
+\begin{itemize}
+    \item Subscribe to global and industry-specific threat intelligence feeds, especially for the energy sector.
+    \item Monitor vulnerabilities specific to Oracle and SAP technologies, widely used in PowerPlus systems.
+\end{itemize}
+
+\subsection*{ Research \& Development (R\&D)}
+\textbf{Description:} \\
+The SOC should invest in developing new tools, techniques, and strategies to address emerging threats. \\
+
+\textbf{Objective:} \\
+Keep the SOC updated and prepared to face new security challenges. \\
+
+\textbf{Recommendations:}
+\begin{itemize}
+    \item Develop automated scripts for security monitoring in hybrid environments (on-premises and cloud).
+    \item Conduct regular penetration tests on legacy SAP systems to identify and mitigate vulnerabilities.
+\end{itemize}
+
+\subsection*{Ticketing}
+\textbf{Description:} \\
+The SOC must use an incident management system to track, prioritize, and resolve security incidents. \\
+
+\textbf{Objective:} \\
+Ensure that each incident is appropriately handled and resolved within defined timelines. \\
+
+\textbf{Recommendations:}
+\begin{itemize}
+    \item Implement a ticketing system integrated with the SIEM, with workflows prioritizing critical incidents in systems handling personal data and OT operations.
+    \item Log all incidents involving remote access by vendors.
+\end{itemize}
+
+\subsection*{ Knowledge Base}
+\textbf{Description:} \\
+The SOC should maintain a repository of information on past incidents, response procedures, and best practices. \\
+
+\textbf{Objective:} \\
+Accelerate response to future incidents by reusing previously tested solutions. \\
+
+\textbf{Recommendations:}
+\begin{itemize}
+    \item Document critical incidents involving OT and IT systems, detailing mitigation measures.
+    \item Create a repository of response procedures for ransomware attacks, given the criticality of energy systems.
+\end{itemize}
+
+\subsection*{ Reporting}
+\textbf{Description:} \\
+The SOC should generate periodic reports on the organization's security posture and the performance of security operations. \\
+
+\textbf{Objective:} \\
+Provide insights to senior management on PowerPlus’s security posture and areas for improvement. \\
+
+\textbf{Recommendations:}
+\begin{itemize}
+    \item Develop monthly reports detailing critical incidents, unauthorized access attempts, and detected vulnerabilities.
+    \item Present key performance indicators (KPIs), such as Mean Time to Detect (MTTD) and Mean Time to Respond (MTTR).
+\end{itemize}
+
+\section*{Conclusion}
+The SOC at PowerPlus should operate as a strategic unit responsible for protecting the organization's critical infrastructure against cyber threats. By implementing the functions described, the SOC will be capable of:
+\begin{itemize}
+    \item Monitoring and correlating security events in real-time.
+    \item Responding quickly and effectively to critical incidents.
+    \item Anticipating new threats based on threat intelligence and continuous research.
+    \item Providing detailed reports to support strategic security decisions.
+\end{itemize}
+This approach will ensure that PowerPlus maintains secure operations, minimizing risks to customers, employees, and critical assets.

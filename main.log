@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.24)  5 DEC 2024 01:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.24)  5 DEC 2024 14:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -203,12 +203,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
 
-Overfull \hbox (0.66916pt too wide) detected at line 26
+Overfull \hbox (0.66916pt too wide) detected at line 30
  \OT1/cmr/m/n/10.95 xvii
  []
 
 
-Overfull \hbox (3.71083pt too wide) detected at line 27
+Overfull \hbox (3.71083pt too wide) detected at line 31
  \OT1/cmr/m/n/10.95 xviii
  []
 
@@ -269,8 +269,6 @@ Overfull \hbox (0.9584pt too wide) in paragraph at lines 106--106
 [12])
 
 [13]
-
-[14]
 \openout2 = `chapters/RiskAssessment.aux'.
 
  (chapters/RiskAssessment.tex
@@ -282,7 +280,7 @@ Overfull \hbox (8.7215pt too wide) in paragraph at lines 11--12
 
 
 
-[15
+[14
 
 
 
@@ -294,23 +292,22 @@ Overfull \hbox (8.0815pt too wide) in paragraph at lines 59--60
 
 
 
+[15]
+
 [16]
-Overfull \hbox (10.5601pt too wide) in paragraph at lines 86--87
-[]\OT1/cmr/bx/n/10.95 Consequence: \OT1/cmr/m/n/10.95 High (quan-ti-ta-tive es-ti-mate: Op-er-a-tional dis-rup-tions cost-ing \TS1/cmr/m/n/10.95 ¿\OT1/cmr/m/n/10.95 500K
- []
 
+[17]
 
+[18])
 
-[17])
-
-[18]
+[19]
 \openout2 = `chapters/IncidentScenarios.aux'.
 
  (chapters/IncidentScenarios.tex
 Chapter 4.
 )
 
-[19
+[20
 
 
 
@@ -320,21 +317,107 @@ Chapter 4.
 
  (chapters/SOCPreparation.tex
 Chapter 5.
-)
 
-[20
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+
+
+[21
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
+
+
+[23])
+
+[24]
 \openout2 = `chapters/Conclusions.aux'.
 
  (chapters/Conclusions.tex
 Chapter 6.
 )
 
-[21
+[25
 
 
 
@@ -346,17 +429,17 @@ L3 programming layer <2024-09-10>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4810 strings out of 473898
- 90451 string characters out of 5726478
+ 4805 strings out of 473898
+ 90411 string characters out of 5726478
  567195 words of memory out of 5000000
- 27610 multiletter control sequences out of 15000+600000
+ 27605 multiletter control sequences out of 15000+600000
  566061 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,12n,93p,783b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,93p,754b,337s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\l3tim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/l3tim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (21 pages, 151894 bytes).
+Output written on main.pdf (25 pages, 161096 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 117 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
