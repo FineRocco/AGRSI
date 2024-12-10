@@ -1,34 +1,45 @@
-\contentsline {chapter}{\numberline {1}Introduction}{iii}{}%
-\contentsline {section}{\numberline {1.1}Purpose of the Report}{iii}{}%
-\contentsline {section}{\numberline {1.2}Background on PowerPlus}{iii}{}%
-\contentsline {subsection}{\numberline {1.2.1}Industry-Specific Security Challenges}{iii}{}%
-\contentsline {section}{\numberline {1.3}Objectives of the Risk Assessment and Incident Response Plan}{iv}{}%
-\contentsline {section}{\numberline {1.4}Methodology Overview}{iv}{}%
-\contentsline {section}{\numberline {1.5}Structure of the Report}{v}{}%
-\contentsline {chapter}{\numberline {2}Establishing the Context}{vi}{}%
-\contentsline {section}{\numberline {2.1}Organizational considerations}{vi}{}%
-\contentsline {subsection}{\numberline {2.1.1}Definition and Structure of the Organization}{vi}{}%
-\contentsline {subsection}{\numberline {2.1.2}Risk Appetite and Governance}{vi}{}%
-\contentsline {subsection}{\numberline {2.1.3}Risk Ownership}{vi}{}%
-\contentsline {section}{\numberline {2.2}Identifying Basic Requirements of Interested Parties}{vii}{}%
-\contentsline {section}{\numberline {2.3}Applying risk assesment}{ix}{}%
-\contentsline {section}{\numberline {2.4}Establishing and maintaining information security risk criteria}{ix}{}%
-\contentsline {subsection}{\numberline {2.4.1}General}{ix}{}%
-\contentsline {subsection}{\numberline {2.4.2}Risk acceptance criteria}{x}{}%
-\contentsline {subsection}{\numberline {2.4.3}Criteria for performing information security risk assessments}{xi}{}%
-\contentsline {subsubsection}{General}{xi}{}%
-\contentsline {subsubsection}{Consequence Criteria}{xi}{}%
-\contentsline {subsubsection}{Likelihood Criteria}{xi}{}%
-\contentsline {subsubsection}{Criteria for determining the level of risk}{xii}{}%
-\contentsline {section}{\numberline {2.5}Choosing an Appropriate Method for Information Security Risk Assessment at PowerPlus}{xii}{}%
-\contentsline {subsection}{\numberline {2.5.1}Consistency}{xii}{}%
-\contentsline {subsection}{\numberline {2.5.2} Comparability}{xiii}{}%
-\contentsline {subsection}{\numberline {2.5.3} Validity}{xiii}{}%
-\contentsline {chapter}{\numberline {3}Risk Assessment}{xiv}{}%
-\contentsline {section}{\numberline {3.1}Risk identification}{xiv}{}%
-\contentsline {section}{\numberline {3.2}Risk Analysis}{xvi}{}%
-\contentsline {section}{\numberline {3.3}Risk Evaluation}{xvii}{}%
-\contentsline {subsection}{\numberline {3.3.1}Prioritizing the Analyzed Risks for Risk Treatment}{xviii}{}%
-\contentsline {chapter}{\numberline {4}Incident Scenarios}{xx}{}%
-\contentsline {chapter}{\numberline {5}SOC Preparation}{xxi}{}%
-\contentsline {chapter}{\numberline {6}Conclusions}{xxv}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{v}{}%
+\contentsline {section}{\numberline {1.1}Purpose of the Report}{v}{}%
+\contentsline {section}{\numberline {1.2}Background on PowerPlus}{v}{}%
+\contentsline {subsection}{\numberline {1.2.1}Industry-Specific Security Challenges}{v}{}%
+\contentsline {section}{\numberline {1.3}Objectives of the Risk Assessment and Incident Response Plan}{vi}{}%
+\contentsline {section}{\numberline {1.4}Methodology Overview}{vi}{}%
+\contentsline {section}{\numberline {1.5}Structure of the Report}{vii}{}%
+\contentsline {chapter}{\numberline {2}Establishing the Context}{viii}{}%
+\contentsline {section}{\numberline {2.1}Organizational considerations}{viii}{}%
+\contentsline {subsection}{\numberline {2.1.1}Definition and Structure of the Organization}{viii}{}%
+\contentsline {subsection}{\numberline {2.1.2}Risk Appetite and Governance}{viii}{}%
+\contentsline {subsection}{\numberline {2.1.3}Risk Ownership}{ix}{}%
+\contentsline {section}{\numberline {2.2}Identifying Basic Requirements of Interested Parties}{ix}{}%
+\contentsline {section}{\numberline {2.3}Applying risk assesment}{xi}{}%
+\contentsline {section}{\numberline {2.4}Establishing and maintaining information security risk criteria}{xii}{}%
+\contentsline {subsection}{\numberline {2.4.1}General}{xii}{}%
+\contentsline {subsection}{\numberline {2.4.2}Risk acceptance criteria}{xii}{}%
+\contentsline {subsubsection}{Risk Levels}{xii}{}%
+\contentsline {subsubsection}{Risk Acceptance Authority}{xiii}{}%
+\contentsline {subsubsection}{Conditional acceptance}{xiii}{}%
+\contentsline {subsubsection}{Review and Adjustment of Criteria}{xiii}{}%
+\contentsline {subsection}{\numberline {2.4.3}Criteria for performing information security risk assessments}{xiv}{}%
+\contentsline {subsubsection}{General}{xiv}{}%
+\contentsline {subsubsection}{Consequence Criteria}{xiv}{}%
+\contentsline {subsubsection}{Likelihood Criteria}{xv}{}%
+\contentsline {subsubsection}{Criteria for determining the level of risk}{xvi}{}%
+\contentsline {section}{\numberline {2.5}Choosing an Appropriate Method for Information Security Risk Assessment at PowerPlus}{xvi}{}%
+\contentsline {subsection}{\numberline {2.5.1}Consistency}{xvi}{}%
+\contentsline {subsection}{\numberline {2.5.2} Comparability}{xvii}{}%
+\contentsline {subsection}{\numberline {2.5.3} Validity}{xvii}{}%
+\contentsline {chapter}{\numberline {3}Risk Assessment}{xviii}{}%
+\contentsline {section}{\numberline {3.1}Risk identification}{xviii}{}%
+\contentsline {section}{\numberline {3.2}Risk Analysis}{xx}{}%
+\contentsline {section}{\numberline {3.3}Risk Evaluation}{xxii}{}%
+\contentsline {subsection}{\numberline {3.3.1}Prioritizing the Analyzed Risks for Risk Treatment}{xxiii}{}%
+\contentsline {chapter}{\numberline {4}Incident Scenarios}{xxiv}{}%
+\contentsline {section}{\numberline {4.1}Scenario 1: Supply Chain Attack on Software Update Process}{xxiv}{}%
+\contentsline {section}{\numberline {4.2}Scenario 2: Insider Threat Exploiting Privileged Access}{xxv}{}%
+\contentsline {section}{\numberline {4.3}Scenario 3: Distributed Denial of Service (DDoS) Attack Targeting OT Systems}{xxv}{}%
+\contentsline {chapter}{\numberline {5}SOC Preparation}{xxvi}{}%
+\contentsline {subsection}{\numberline {5.0.1}Incident Response Case 1: Ransomware Attack on IT Infrastructure}{xxix}{}%
+\contentsline {subsection}{\numberline {5.0.2}Incident Response Case 2: Phishing Attack Targeting Employees}{xxix}{}%
+\contentsline {subsection}{\numberline {5.0.3}Incident Response Case 3: Remote Access Breach on OT Systems}{xxx}{}%
+\contentsline {chapter}{\numberline {6}Conclusions}{xxxi}{}%
+\contentsline {chapter}{\numberline {7}References}{xxxii}{}%

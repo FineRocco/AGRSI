@@ -79,6 +79,9 @@ INPUT chapters\SOCPreparation.aux
 INPUT .\chapters\Conclusions.aux
 INPUT .\chapters\Conclusions.aux
 INPUT chapters\Conclusions.aux
+INPUT .\chapters\References.aux
+INPUT .\chapters\References.aux
+INPUT chapters\References.aux
 OUTPUT main.aux
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -162,6 +165,13 @@ OUTPUT chapters\Conclusions.aux
 INPUT .\chapters\Conclusions.tex
 INPUT .\chapters\Conclusions.tex
 INPUT chapters\Conclusions.tex
+INPUT .\chapters\References.tex
+INPUT .\chapters\References.tex
+OUTPUT chapters\References.aux
+INPUT .\chapters\References.tex
+INPUT .\chapters\References.tex
+INPUT chapters\References.tex
+INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT main.aux
 INPUT .\chapters\Introduction.aux
 INPUT .\chapters\Introduction.aux
@@ -181,6 +191,9 @@ INPUT chapters\SOCPreparation.aux
 INPUT .\chapters\Conclusions.aux
 INPUT .\chapters\Conclusions.aux
 INPUT chapters\Conclusions.aux
+INPUT .\chapters\References.aux
+INPUT .\chapters\References.aux
+INPUT chapters\References.aux
 INPUT C:\Users\l3tim\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\l3tim\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
@@ -193,3 +206,5 @@ INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\l3tim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
