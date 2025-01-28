@@ -22,12 +22,10 @@ All communities of interest should be involved in the management of risks:
 - InfoSec members best understand the threats and attacks that introduce the risk (They usually take leadership to adress the risk)
 - IT members must help to build the secure systems and ensure their safe operation
 - Manangement and users play a part in the early detection and response process
-**Top mamangement of the organization is resoponsible/accountable for the risk management program**
-
-#### StakeHolders
-Person or organization that can affect, be affected by, or perceive themselves to be affected by a decision or activity.
 
 **Top mamangement of the organization is resoponsible/accountable for the risk management program**
+
+**StakeHolders:** Person or organization that can affect, be affected by, or perceive themselves to be affected by a decision or activity.
 
 ## Risk Management Process
 
