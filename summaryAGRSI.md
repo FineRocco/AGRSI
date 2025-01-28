@@ -27,6 +27,8 @@ All communities of interest should be involved in the management of risks:
 #### StakeHolders
 Person or organization that can affect, be affected by, or perceive themselves to be affected by a decision or activity.
 
+**Top mamangement of the organization is resoponsible/accountable for the risk management program**
+
 ## Risk Management Process
 
 ### Establishing the Context
