@@ -29,6 +29,8 @@ All communities of interest should be involved in the management of risks:
 
 ## Risk Management Process
 
+![](./figures/RMprocess.png)
+
 ### Establishing the Context
 
 The context is the understanding of the **external and internal environments**, understanding the **RM process** (definded by the framework), understanding the **organizations's risk apetite statement**(will be used for appropriate risk treament):
@@ -60,6 +62,12 @@ Risk analysis in IS is a process that assigns a comparative risk rating or score
 > Risk = likelihood of the occurrence of a vulnerability x the value of the asset - the percentage of risk mitigated by current controls + the uncertainty of current knowledge of the vulnerability. (Whitman Expression)
 
 **Outputs:** Risk ranking worksheet
+
+### Risk Evaluation (Risk Assessment)
+
+Apply the risk acceptance criteria to determime whether or not the risks can be accepted. If cannot, they should be prioritized for treatment.
+
+**Output:** a list of prioritized risks with scenarios that lead for those risks; whether a risk treatment is required; suggestions for risk management.
 
 
 
