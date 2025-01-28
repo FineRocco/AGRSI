@@ -28,8 +28,9 @@ All communities of interest should be involved in the management of risks:
 **StakeHolders:** Person or organization that can affect, be affected by, or perceive themselves to be affected by a decision or activity.
 
 ## Risk Management Process
+summary/figures/RMprocess.PNG
 
-![](./summary/figures/RMprocess.PNG)
+![](/summary/figures/RMprocess.PNG)
 
 ### Establishing the Context
 
