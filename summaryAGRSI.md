@@ -29,7 +29,7 @@ Person or organization that can affect, be affected by, or perceive themselves t
 
 ## Risk Management Process
 
-#### Establishing the Context
+### Establishing the Context
 
 The context is the understanding of the **external and internal environments**, understanding the **RM process** (definded by the framework), understanding the **organizations's risk apetite statement**(will be used for appropriate risk treament):
 
@@ -38,7 +38,7 @@ The context is the understanding of the **external and internal environments**, 
 - Establishing and maintaining information security risk criteria
 - Risk acceptance criteria, consequence criteria, likelihood criteria, criteria for determing the level of risk
 
-#### Risk Identification (Risk Assessment)
+### Risk Identification (Risk Assessment)
 
 The risk identification process begins with the identification and cataloguing of information assets.
 An **information asset** is any asset that collects, stores, processes, or transmits information.
@@ -53,7 +53,7 @@ Manager must:
 
 **Output:** a prioritized list of assets & a prioritized list of threats facing those assets which combined together create TVA worksheet.
 
-#### Risk Analysis (Risk Assessment)
+### Risk Analysis (Risk Assessment)
 
 Risk analysis in IS is a process that assigns a comparative risk rating or score to each information vulnerability/asset.
 
