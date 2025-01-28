@@ -29,7 +29,7 @@ All communities of interest should be involved in the management of risks:
 
 ## Risk Management Process
 
-![](./figures/RMprocess.png)
+![](./summary/figures/RMprocess.png)
 
 ### Establishing the Context
 
