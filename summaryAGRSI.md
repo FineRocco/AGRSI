@@ -35,7 +35,7 @@ The context is the understanding of the **external and internal environments**, 
 
 - Identifying basic requirements of interested parties
 - Applying risk assessment (knowing how to)
-- Establishing and maintaining information security risk criteria
+- Establishing and maintaining information security risk criteria (Qualitive, Quantitive or Hybrid approach)
 - Risk acceptance criteria, consequence criteria, likelihood criteria, criteria for determing the level of risk
 
 ### Risk Identification (Risk Assessment)
@@ -55,9 +55,12 @@ Manager must:
 
 ### Risk Analysis (Risk Assessment)
 
-Risk analysis in IS is a process that assigns a comparative risk rating or score to each information vulnerability/asset.
+Risk analysis in IS is a process that assigns a comparative risk rating or score to each information vulnerability/asset. (Assessing likelihood, Potential impact on asset value, Percentage of Risk Mitigated by Current Controls)
 
 > Risk = likelihood of the occurrence of a vulnerability x the value of the asset - the percentage of risk mitigated by current controls + the uncertainty of current knowledge of the vulnerability. (Whitman Expression)
+
+**Outputs:** Risk ranking worksheet
+
 
 
 
