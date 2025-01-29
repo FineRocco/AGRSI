@@ -28,7 +28,6 @@ All communities of interest should be involved in the management of risks:
 **StakeHolders:** Person or organization that can affect, be affected by, or perceive themselves to be affected by a decision or activity.
 
 ## Risk Management Process
-summary/figures/RMprocess.PNG
 
 ![](/summary/figures/RMprocess.PNG)
 
@@ -69,6 +68,48 @@ Risk analysis in IS is a process that assigns a comparative risk rating or score
 Apply the risk acceptance criteria to determime whether or not the risks can be accepted. If cannot, they should be prioritized for treatment.
 
 **Output:** a list of prioritized risks with scenarios that lead for those risks; whether a risk treatment is required; suggestions for risk management.
+
+### Risk Treatment
+
+Envolves choosing one of the basic control strategies:
+- **Modification (Defense):** attempts to prevent the exploitation of the vulnerability (Ex: countering threats, removing vulnerabilities in assets, limiting access to assets, and adding protective safeguards)
+- **Modification (Mitigation):** attempts to reduce the damage caused by a realized incident or disaster (Incident response (IR) plan, Disaster recovery (DR) plan, Business continuity (BC) plan, Crisis management (CM) plan)
+- **Sharing (Transferal):** attempts to shift the risk to other assets, other processes, or other organizations (Purchasing insurance, Outsourcing to other organizations, Implementing service contracts with providers)
+- **Retention (Acceptance):** the decision to do nothing to protect an information asset from risk and accept the outcome (implemented when the cost of protecting an asset does not justify the expense)
+- **Avoidance (Termination):** - based on the organization’s need or choice not to protect an asset (must be a conscious business decision)
+
+**Output:** Residual risk
+
+![](/summary/figures/RiskTreatment.PNG)
+
+### Risk Acceptance
+
+The risk treatment plan and residual risk assessment is subjected to the acceptance decision (risk apetite) of the organization’s managers.
+
+**Output:** a list of accepted risks with justification for those that do not meet the organization’s normal risk acceptance criteria.
+
+## Managing Risk
+
+**Residual risk** is the amount of risk that remains after the organization has implemented policy, education and training, and technical controls and safeguards. (ideal to be lower than the organization's risk apetite)
+**Risk Apetite** also known as Risk Tolerance, is the quantity and nature of risk that organizations are willing to accept.
+
+The key is for the organization to find balance in its decision-making processes and in its feasibility analyses. Rules of thumb for selecting a strategy:
+
+- When a vulnerability exists in an important asset - implement security controls to reduce likelihood of a vulnerability being exploited
+- When a vulnerability can be exploited - apply layered protections, architectural designs, and administrative controls to minimize risk
+- When the attacker’s potential gain is greater than the costs of attack - apply protections to increase attacker’s cost
+- When the potential loss is substantial - apply technical and nontechnical protections to limit the extent of attack
+
+**Controls should be monitored and measured on an ongoing basis to determine effectiveness**
+
+
+
+
+
+
+
+
+
 
 
 
