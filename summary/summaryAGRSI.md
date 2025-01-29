@@ -103,11 +103,11 @@ The key is for the organization to find balance in its decision-making processes
 
 **Controls should be monitored and measured on an ongoing basis to determine effectiveness**
 
-## Cost-Benefit Analysis
+## Cost-Benefit Analysis (CBA)
 
 **Cost Avoidance** is the money saved by using the defense strategy via the implementation of control.
-
 **Benefit** is the value to the organization of using controls to prevent losses associated with a specific vulnerability (annualized loss expectancy (ALE))
+The benefits of information security activities are directly related to cost savings, or cost avoidance.
 
 **Asset valuation** is the process of assigning financial value or worth to each information asset.
 
@@ -133,6 +133,45 @@ Measuring how ready an organization is for the introduction of controls is to de
 - **Technical feasibility:** determining whether an organization already has or can acquire the technology necessary to implement and support them
 - **Political feasibility:** considers what can and cannot occur based on the consensus and relationships among the communities of interest
 
+## Net Present Value (NPV) & Return on Security Investement (ROSI)
+
+NPV is the Present Value of all cash flows which means: 
+> NPV = PV of future cash flows - PV of the cost of the investment
+
+Present Value:
+> PV = Cash flow / 1 + interest/discount rate
+
+**Invest if NPV > 0**
+
+> ROSI = (Monetary loss reduction - Cost of solution) / Cost of solution
+> ROSI = (ALE - mALE - Cost of solution) / Cost of solution
+> ROSI = (ALE * mitigation ratio - cost of solution) / Cost of solution
+
+**Cons of ALE:**
+- assumes losses are constant over time
+- ignores other relevant characterisks of risk (Ex: dispersion)
+- does not provide a rule for choosing the best investment
+- does not compare the investement with the costs of cybersecurity improvments
+
+#### Gleis Model
+
+“the optimal amount to spend on information security never exceeds 37% of the expected loss resulting from a security breach"
+
+## Costs
+
+**Direct costs** can be clearly linked to specific breaches. (Ex: Personnel, hardware, software)
+**Indirect costs** cannot be clearly linked to a particular breach, not with any reasonable degree of accuracy. (Ex: stock market value, overall cost of an IDS)
+
+**Explicit costs** can be measured in an unambiguous manner. (Ex: encryption, firewalls, access controls, IDS, and other technically oriented IS activities)
+**Implicit costs** are opportunity costs which cannot be measured without ambiguity (lost revenues – “reputation effect”)
+
+## Business case for IS investements
+
+1. Specify organizational cybersecurity objectives
+2. Indentify alternatives for achieving cibersecurity objectives
+3. Acquire data and examine each alternative identified
+4. Conduct cost-benefit analysis and rank order the alternatives identified
+5. Control (auditing)
 
 
 
