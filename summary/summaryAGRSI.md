@@ -91,6 +91,7 @@ The risk treatment plan and residual risk assessment is subjected to the accepta
 ## Managing Risk
 
 **Residual risk** is the amount of risk that remains after the organization has implemented policy, education and training, and technical controls and safeguards. (ideal to be lower than the organization's risk apetite)
+
 **Risk Apetite** also known as Risk Tolerance, is the quantity and nature of risk that organizations are willing to accept.
 
 The key is for the organization to find balance in its decision-making processes and in its feasibility analyses. Rules of thumb for selecting a strategy:
@@ -101,6 +102,41 @@ The key is for the organization to find balance in its decision-making processes
 - When the potential loss is substantial - apply technical and nontechnical protections to limit the extent of attack
 
 **Controls should be monitored and measured on an ongoing basis to determine effectiveness**
+
+## Cost-Benefit Analysis
+
+**Cost Avoidance** is the money saved by using the defense strategy via the implementation of control.
+
+**Benefit** is the value to the organization of using controls to prevent losses associated with a specific vulnerability (annualized loss expectancy (ALE))
+
+**Asset valuation** is the process of assigning financial value or worth to each information asset.
+
+**Single loss expectancy (SLE)** is the calculated value associated with the most likely loss from a single occurrence of a specific attack.
+> SLE = asset value (AV) x exposure factor (EF)
+
+**Annualized rate of occurrence (ARO)** indicates how often you expect a specific type of attack to occur
+
+**Annualized loss expectancy (ALE)** a comparative estimate of the losses from successful attacks on an asset over one year.
+> ALE = SLE x ARO
+
+**Cost-benefit analysis (CBA)** is a form of feasibility study that compares the life-cycle cost of implementing a control mechanism against the estimated economic benefit that would accrue from the implementation of the control. Basically, it determines whether the benefit from a control alternative is worth the associated cost of the control.
+> CBA = ALE(precontrol) - ALE(postcontrol) - ACS(annual cost of the safeguard)
+
+**Alternatives to using CBA** are Benchamarking (seeking out and studying the practices used in other organizations that produce the results you desire), etc.
+
+## Feasibility 
+
+Measuring how ready an organization is for the introduction of controls is to determine the proposal’s:
+- **Economic feasibility:** is the most common criterion and is used in CBA
+- **Organizational feasibility:** examines how well the proposed InfoSec alternatives will contribute to the efficiency, effectiveness, and overall operation of an organization
+- **Operational feasibility:** also known as behavioral feasibility, refers to user acceptance and support, management acceptance and support, and the system’s compatibility with the requirements of the organization’s stakeholders
+- **Technical feasibility:** determining whether an organization already has or can acquire the technology necessary to implement and support them
+- **Political feasibility:** considers what can and cannot occur based on the consensus and relationships among the communities of interest
+
+
+
+
+
 
 
 
