@@ -38,7 +38,7 @@ The context is the understanding of the **external and internal environments**, 
 - Identifying basic requirements of interested parties
 - Applying risk assessment (knowing how to)
 - Establishing and maintaining information security risk criteria (Qualitive, Quantitive or Hybrid approach)
-- Risk acceptance criteria, consequence criteria, likelihood criteria, criteria for determing the level of risk
+- Risk acceptance criteria, consequence criteria, likelihood criteria, criteria for determening the level of risk **(Output)**
 
 ### Risk Identification (Risk Assessment)
 
