@@ -2,7 +2,7 @@
 
 - **Risk**: The effect of uncertainty on objectives
 - **Level of risk:** magnitude of risk, which is the combination of consequences and likelihood
-- **Consequence:** Also known as impact, is the outcome of the event affecting objectives
+- **Consequence:** is the outcome of the event affecting objectives
 - **likelihood:** Is the chance/probability of happening
 - **Event:** occurence or change of a particular set of circumstances
 - **Risk Criteria:** is the terms of reference which the significance of a risk is evaluated
