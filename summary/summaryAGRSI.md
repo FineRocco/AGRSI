@@ -88,6 +88,22 @@ The risk treatment plan and residual risk assessment is subjected to the accepta
 
 **Output:** a list of accepted risks with justification for those that do not meet the organization’s normal risk acceptance criteria.
 
+### Risk Communication and Consultation
+
+Is a set of continual and iterative processes that an organization conducts to provide, share or obtain informationx with interested parties regarding the management of risk.
+
+**Input:** Information on risks, their causes, consequences and their likelihood identified through the risk management process.
+
+**Output:** Relevant interested parties's percepetions and continual understanding of the organization's information security risk management process and results.
+
+### Risk Monitoring and Review
+
+Risks and their factors (value of assets, consequences, threats, vulns., etc.) should be monitored and reviewed to identify any changes in the context of the organization at an early stage and to maintain an overview of the complete risk picture. In other words, its objectives are:
+- ensuring risk treatments are effective, eficient and economical
+- obtaining information to improve future risk assessments
+- analysing and learning lessons from incidents
+- identifying emerging risk
+
 ## Managing Risk
 
 **Residual risk** is the amount of risk that remains after the organization has implemented policy, education and training, and technical controls and safeguards. (ideal to be lower than the organization's risk apetite)
