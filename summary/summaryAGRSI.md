@@ -40,7 +40,7 @@ Stages:
 
 ## Risk Management Process
 
-![](/summary/figures/RMprocess.PNG)
+![](figures/RMprocess.PNG)
 
 ### Establishing the Context
 
