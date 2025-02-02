@@ -1,7 +1,7 @@
 ## Terms and Definitions
 
 - **Risk**: The effect of uncertainty on objectives
-- **Level of risk:** magnitude of risk, which is the combination of consequences and likelihood
+- **Level of risk:** magnitude of risk or combination of risks, which is the combination of consequences and likelihood
 - **Consequence:** is the outcome of the event affecting objectives
 - **likelihood:** Is the chance/probability of happening
 - **Event:** occurence or change of a particular set of circumstances
