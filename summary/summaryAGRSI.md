@@ -100,6 +100,8 @@ Apply the risk acceptance criteria to determime whether or not the risks can be 
 
 **Output:** a list of prioritized risks with scenarios that lead for those risks; whether a risk treatment is required; suggestions for risk management.
 
+![](/summary/figures/RiskAssessmentOutputs.PNG)
+
 ### Risk Treatment
 
 Envolves choosing (1 or more) the basic control strategies:
@@ -361,6 +363,8 @@ CPM's responsabilities:
 - Verifying personnel status
 - Activating the alert roster
 - Coordinating with emergency services
+
+![](/summary/figures/ContigencyPlans.PNG)
 
 
 
