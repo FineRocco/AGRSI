@@ -105,11 +105,11 @@ Apply the risk acceptance criteria to determime whether or not the risks can be 
 ### Risk Treatment
 
 Envolves choosing (1 or more) the basic control strategies:
-- **Modification (Defense):** attempts to prevent the exploitation of the vulnerability (Ex: countering threats, removing vulnerabilities in assets, limiting access to assets, and adding protective safeguards)
-- **Modification (Mitigation):** attempts to reduce the damage caused by a realized incident or disaster (Incident response (IR) plan, Disaster recovery (DR) plan, Business continuity (BC) plan, Crisis management (CM) plan)
-- **Sharing (Transferal):** attempts to shift the risk to other assets, other processes, or other organizations (Purchasing insurance, Outsourcing to other organizations, Implementing service contracts with providers)
-- **Retention (Acceptance):** the decision to do nothing to protect an information asset from risk and accept the outcome (implemented when the cost of protecting an asset does not justify the expense, calculated using CBA)
-- **Avoidance (Termination):** - based on the organization’s need or choice not to protect an asset (must be a conscious business decision)
+* **Modification (Defense):** attempts to prevent the exploitation of the vulnerability (Ex: countering threats, removing vulnerabilities in assets, limiting access to assets, and adding protective safeguards)
+* **Modification (Mitigation):** attempts to reduce the damage caused by a realized incident or disaster (Incident response (IR) plan, Disaster recovery (DR) plan, Business continuity (BC) plan, Crisis management (CM) plan)
+* **Sharing (Transferal):** attempts to shift the risk to other assets, other processes, or other organizations (Purchasing insurance, Outsourcing to other organizations, Implementing service contracts with providers)
+* **Retention (Acceptance):** the decision to do nothing to protect an information asset from risk and accept the outcome (implemented when the cost of protecting an asset does not justify the expense, calculated using CBA)
+* **Avoidance (Termination):** - based on the organization’s need or choice not to protect an asset (must be a conscious business decision)
 
 **Input:** a list of prioritized risks with event or risk scenarios that lead to those risks; risk acceptance criteria
 
@@ -220,8 +220,7 @@ Present Value:
 **Explicit costs** can be measured in an unambiguous manner. (Ex: encryption, firewalls, access controls, IDS, and other technically oriented IS activities) \
 **Implicit costs** are opportunity costs which cannot be measured without ambiguity (lost revenues – “reputation effect”)
 
-## Business case for IS investements
-
+## Business case for IS investements:
 1. Specify organizational cybersecurity objectives
 2. Indentify alternatives for achieving cibersecurity objectives
 3. Acquire data and examine each alternative identified
