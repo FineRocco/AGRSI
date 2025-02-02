@@ -122,7 +122,7 @@ The risk treatment plan and residual risk assessment is subjected to the accepta
 
 ### Risk Communication and Consultation
 
-Is a set of continual and iterative processes that an organization conducts to provide, share or obtain informationx with interested parties regarding the management of risk.
+Is a set of continual and iterative processes that an organization conducts to provide, share or obtain information with interested parties regarding the management of risk.
 
 **Input:** Information on risks, their causes, consequences and their likelihood identified through the risk management process.
 
