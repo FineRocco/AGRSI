@@ -100,7 +100,7 @@ Apply the risk acceptance criteria to determime whether or not the risks can be 
 
 **Output:** a list of prioritized risks with scenarios that lead for those risks; whether a risk treatment is required; suggestions for risk management.
 
-![](/summary/figures/RiskAssessmentOutputs.PNG)
+![](figures/RiskAssessmentOutputs.PNG)
 
 ### Risk Treatment
 
@@ -115,7 +115,7 @@ Envolves choosing (1 or more) the basic control strategies:
 
 **Output:** Approved risk treatment plan/s (by risk owners) and accepted residual risks
 
-![](/summary/figures/RiskTreatment.PNG)
+![](figures/RiskTreatment.PNG)
 
 ### Risk Acceptance (TO DO - Work in Progress....)
 
@@ -277,7 +277,7 @@ Objective: **avoid or contain the impact of information security incidents**
 
 **Some activities can occur in multiple phases or during the incident handling process (Communication, information sharing, documentation)**
 
-![](/summary/figures/IncidentManagementPhases.PNG)
+![](figures/IncidentManagementPhases.PNG)
 
 ## Incident Detection (SOC)
 
@@ -325,7 +325,7 @@ Weighted analysis table resolves most critical issues.
 * **Maximum tolerable downtime (MTD):** Total amount of time the system owner/authorizing official willing to accept for a process outage (RTO + WRT)
 * **Work Recovery Time (WRT):** the maximum tolerable amount of time that is needed to verify the system and/or data integrity
 
-![](/summary/figures/RecoveryMetrics.PNG)
+![](figures/RecoveryMetrics.PNG)
 
 ### Disaster Recovery
 
@@ -364,7 +364,7 @@ CPM's responsabilities:
 - Activating the alert roster
 - Coordinating with emergency services
 
-![](/summary/figures/ContigencyPlans.PNG)
+![](figures/ContigencyPlans.PNG)
 
 
 
