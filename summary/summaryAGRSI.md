@@ -5,6 +5,7 @@
 - **Consequence:** is the outcome of the event affecting objectives
 - **likelihood:** Is the chance/probability of happening
 - **Event:** occurence or change of a particular set of circumstances
+- **Incident:** an event that has been assessed as having an actual or potentially adverse effect on the security or performance of a system
 - **Risk Criteria:** is the terms of reference which the significance of a risk is evaluated
 - **Risk management:** coordinated activities to control an organization with regard to risk
 - **Risk management policy:** statement of overall intentions and direction of an organization related to risk management
@@ -225,9 +226,37 @@ Present Value:
 4. Conduct cost-benefit analysis and rank order the alternatives identified
 5. Control (auditing)
 
+## Incident Management
 
+Objective: **avoid or contain the impact of information security incidents**
 
+### Terms:
+- **Information Security Event:** occurrence indicating a possible breach of information security or failure of controls
+- **Information Security Incident:** one or multiple related and identified information security events that can harm an organization’s assets or compromise its operations
+- **Information security Investigation:** application of examinations, analysis and interpretation to aid understanding of an information security incident
+- **Information security Incident Management:**  exercise of a consistent and effective approach to the handling of information security incidents
+- **Incident Handling** actions of detecting, reporting, assessing, responding to, dealing with, and learning from information security incidents
+- **Incident Response Team (IRT):** team of appropriately skilled and trusted members of the organization that handles incidents during their lifecycle
+- **Incident Response:** actions taken to mitigate or resolve an information security incident
+- **Point of Contact (PoC):** defined organizational function or role serving as the coordinator or focal point of information concerning incident management activities
 
+### Benefits:
+- a) **Improving overall information security (rapid identification and response)**
+- b) **Reducing adverse business impacts (Reduce financial/reputation/credibility loss)**
+- c) Strengthening the focus on information security incident prevention
+- d) **Improving prioritization (effective categorization and classification scales, reduce overlooking higher priority activities)**
+- e) Supporting evidence collection and investigation
+- f) Contributing to budget and resource justifications
+- g) Improving updates to information security risk assessment and management results
+- h) Providing enhanced information security awareness and training program material
+- i) Providing input to the information security policy and related documentation reviews
+
+### Phases:
+- Plan and Prepare
+- Detection and Reporting
+- Assessement and Decision
+- Responses
+- Lessons Learnt
 
 
 
