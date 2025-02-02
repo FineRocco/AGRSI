@@ -16,6 +16,7 @@ arrangements for designing, implementing, monitoring, reviewing and continually 
 - **Risk analysis:** process to comprehend the nature of risk and determine the level of risk
 - **Risk evaluation:** process of comparing the results of risk analysis with the risk criteria to determine whether the risk and/or its magnitude is acceptable or tolerable
 - **Risk treatment:** process to modify the risk
+- **Control:** the measure that is modifying the risk
 
 ## Accountability for Risk management
 All communities of interest should be involved in the management of risks:
