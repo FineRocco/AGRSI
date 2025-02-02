@@ -28,6 +28,15 @@ All communities of interest should be involved in the management of risks:
 
 **StakeHolders:** Person or organization that can affect, be affected by, or perceive themselves to be affected by a decision or activity.
 
+## Risk Management Framework
+
+Stages:
+1. Executive governance and support
+2. Framework design
+3. Framework implementation
+4. Framework monitoring and review
+5. Continuous improvement
+
 ## Risk Management Process
 
 ![](/summary/figures/RMprocess.PNG)
