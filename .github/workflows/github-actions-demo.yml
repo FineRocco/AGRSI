@@ -9,7 +9,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4  # Ensures repo files are available
 
-      - name: Debug: List repository files
+      - name: Debug - List repository files
         run: ls -R  # Confirms file structure
 
       - name: Convert Markdown to PDF using Pandoc
