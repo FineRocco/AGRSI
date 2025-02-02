@@ -6,6 +6,11 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-22.04
     steps:
-      - uses: docker://pandoc/core:3.5
-        with:
-          args: "AGRSI/summary/summaryAGRSI.md -o test.pdf" # gets appended to pandoc command
+      - name: Checkout repository
+        uses: actions/checkout@v4  # Ensures repo files are available
+
+      - name: Debug: List repository files
+        run: ls -R  # Confirms file structure
+
+      - name: Convert Markdown to PDF using Pandoc
+        run: docker run --rm -v $(pwd):/data pandoc/core:3.5 summary/summaryAGRSI.md -o test.pdf
