@@ -12,5 +12,7 @@ jobs:
       - name: Debug - List repository files
         run: ls -R  # Confirms file structure
 
-      - name: Convert Markdown to PDF using Pandoc
-        run: docker run --rm -v $(pwd):/data pandoc/core:3.5 summary/summaryAGRSI.md -o test.pdf
+      - name: Convert Markdown to PDF using Pandoc with LaTeX
+        uses: docker://pandoc/latex:3.5
+        with:
+          args: "summary/summaryAGRSI.md -o test.pdf"
