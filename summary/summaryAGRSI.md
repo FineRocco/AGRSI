@@ -191,7 +191,7 @@ NPV is the Present Value of all cash flows which means:
 > NPV = PV of future cash flows - PV of the cost of the investment
 
 Present Value:
-> PV = Cash flow / 1 + interest/discount rate
+> PV = Cash flow / 1 + interest(discount) rate
 
 **Invest if NPV > 0**
 
