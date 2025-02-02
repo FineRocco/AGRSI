@@ -202,10 +202,10 @@ Present Value:
 
 ## Costs
 
-**Direct costs** can be clearly linked to specific breaches. (Ex: Personnel, hardware, software)
+**Direct costs** can be clearly linked to specific breaches. (Ex: Personnel, hardware, software) \
 **Indirect costs** cannot be clearly linked to a particular breach, not with any reasonable degree of accuracy. (Ex: stock market value, overall cost of an IDS)
 
-**Explicit costs** can be measured in an unambiguous manner. (Ex: encryption, firewalls, access controls, IDS, and other technically oriented IS activities)
+**Explicit costs** can be measured in an unambiguous manner. (Ex: encryption, firewalls, access controls, IDS, and other technically oriented IS activities) \
 **Implicit costs** are opportunity costs which cannot be measured without ambiguity (lost revenues – “reputation effect”)
 
 ## Business case for IS investements
