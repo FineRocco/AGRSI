@@ -252,11 +252,26 @@ Objective: **avoid or contain the impact of information security incidents**
 - i) Providing input to the information security policy and related documentation reviews
 
 ### Phases:
-- Plan and Prepare
-- Detection and Reporting
-- Assessement and Decision
-- Responses
-- Lessons Learnt
+* Plan and Prepare:
+   - formulate and produce IS management policy
+   - update IS policies
+   - establish the IRT with an appropriat training program
+   - establish/preserve relationships with internal and external organizations involved in IS
+* Detection and Reporting:
+   - monitor and log system and network activity
+   - detect and report the occurrence of an IS event or vulnerability
+   - collect information on an IS event or vulnerability
+* Assessement and Decision (after IS event detected & reported):
+   - distribute the responsibility for IS incident management activities
+   - provide formal procedures for each notified person to follow
+   - conduct an assessment by the incident handler to determine whether the event is a possible/confirmed IS incident or a false alarm
+* Responses (Once IS incident is confirmed):
+   - investigate incidents relative to IS incident classification rating
+   - review by the IRT to determine whether the IS incident is under control (If yes: **perform the requeired response**; if not: **perform crisis response activites**)
+   - after recovery from an incident, initiate Post Incident Activity (investigate other relevant sources)
+* Lessons Learnt
+
+**Some activities can occur in multiple phases or during the incident handling process (Communication, information sharing, documentation)**
 
 
 
