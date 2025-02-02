@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: docker://pandoc/core:3.5
         with:
-          args: "summary/summaryAGRSI.md -o test.pdf" # gets appended to pandoc command
+          args: "./summary/summaryAGRSI.md -o test.pdf" # gets appended to pandoc command
