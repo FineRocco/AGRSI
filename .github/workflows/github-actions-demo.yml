@@ -6,8 +6,6 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4  # Ensure the repo files are available
-
-      - name: Convert Markdown to PDF
-        run: docker run --rm -v ${{ github.workspace }}:/workspace pandoc/core:3.5 /workspace/summary/summaryFile.md -o /workspace/test.pdf
+      - uses: docker://pandoc/core:3.5
+        with:
+          args: "AGRSI/summary/summaryAGRSI.md -o test.pdf" # gets appended to pandoc command
