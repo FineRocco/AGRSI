@@ -84,7 +84,7 @@ Techniques for risk analysis based on consequences and likelihood can be:
 
 ### Risk Evaluation (Risk Assessment)
 
-Apply the risk acceptance criteria to determime whether or not the risks can be accepted. If cannot, they should be prioritized for treatment.
+Apply the risk acceptance criteria to determime whether or not the risks can be accepted. If cannot, they should be prioritized for treatment considering the assessed levels of risks.
 
 **Input:** a list of risk criteria and risks with level values assigned.
 
@@ -96,16 +96,18 @@ Envolves choosing one of the basic control strategies:
 - **Modification (Defense):** attempts to prevent the exploitation of the vulnerability (Ex: countering threats, removing vulnerabilities in assets, limiting access to assets, and adding protective safeguards)
 - **Modification (Mitigation):** attempts to reduce the damage caused by a realized incident or disaster (Incident response (IR) plan, Disaster recovery (DR) plan, Business continuity (BC) plan, Crisis management (CM) plan)
 - **Sharing (Transferal):** attempts to shift the risk to other assets, other processes, or other organizations (Purchasing insurance, Outsourcing to other organizations, Implementing service contracts with providers)
-- **Retention (Acceptance):** the decision to do nothing to protect an information asset from risk and accept the outcome (implemented when the cost of protecting an asset does not justify the expense)
+- **Retention (Acceptance):** the decision to do nothing to protect an information asset from risk and accept the outcome (implemented when the cost of protecting an asset does not justify the expense, calculated using CBA)
 - **Avoidance (Termination):** - based on the organization’s need or choice not to protect an asset (must be a conscious business decision)
 
-**Output:** Residual risk
+**Input:** a list of prioritized risks with event or risk scenarios that lead to those risks; risk acceptance criteria
+
+**Output:** Approved risk treatment plan/s (by risk owners) and accepted residual risks
 
 ![](/summary/figures/RiskTreatment.PNG)
 
-### Risk Acceptance
+### Risk Acceptance (TO DO - Work in Progress....)
 
-The risk treatment plan and residual risk assessment is subjected to the acceptance decision (risk apetite) of the organization’s managers.
+The risk treatment plan and residual risk assessment is subjected to the acceptance decision (risk acceptance criteria) of the organization’s managers.
 
 **Output:** a list of accepted risks with justification for those that do not meet the organization’s normal risk acceptance criteria.
 
