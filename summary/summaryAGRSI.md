@@ -255,7 +255,7 @@ Objective: **avoid or contain the impact of information security incidents**
 * Plan and Prepare:
    - formulate and produce IS management policy
    - update IS policies
-   - establish the IRT with an appropriat training program
+   - establish the IRT with an appropriate training program
    - establish/preserve relationships with internal and external organizations involved in IS
 * Detection and Reporting:
    - monitor and log system and network activity
