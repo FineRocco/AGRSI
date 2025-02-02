@@ -264,14 +264,117 @@ Objective: **avoid or contain the impact of information security incidents**
 * Assessement and Decision (after IS event detected & reported):
    - distribute the responsibility for IS incident management activities
    - provide formal procedures for each notified person to follow
+   - collect information about the detection
    - conduct an assessment by the incident handler to determine whether the event is a possible/confirmed IS incident or a false alarm
 * Responses (Once IS incident is confirmed):
    - investigate incidents relative to IS incident classification rating
-   - review by the IRT to determine whether the IS incident is under control (If yes: **perform the requeired response**; if not: **perform crisis response activites**)
+   - review by the IRT to determine whether the IS incident is under control (If yes: **perform the required response**; if not: **perform crisis response activites**)
    - after recovery from an incident, initiate Post Incident Activity (investigate other relevant sources)
-* Lessons Learnt
+* Lessons Learnt:
+   - Review the investigation(Post Incident Activity) and improve (reduces false alarms)
 
 **Some activities can occur in multiple phases or during the incident handling process (Communication, information sharing, documentation)**
+
+![](/summary/figures/IncidentManagementPhases.PNG)
+
+## Incident Detection (SOC)
+
+Security Operations Centers is a central competence that joins people, processes and technology in a mission to detect, contain and react to IT Security Threats Events/Incidents:
+- Routine data collection and analysis
+- Data collected by automatic recording systems
+- Understanding the norm (So it understands the abnormal)
+- Manage logging and other data collection mechanisms 
+- Watch the network for unexpected behavior
+- Watch systems for unexpected behavior
+- Investigate unauthorized hardware attached to your organization’s network
+- Inspect physical resources for signs of unauthorized access
+- Review reports about suspicious and unexpected behavior
+- Take appropriate actions
+
+## Contigency Plans
+
+Contingency planning management team's (CPMT) responsabilities:
+* Manage and conducting the overall CP process
+* Write the master CP document
+* Conduct the business impact analysis (BIA), assists in identifying & prioritizing threats, attacks and business functions
+* Organize and staff subordinate teams leadership:
+  - Incident response
+  - Disaster recovery
+  - Business continuity
+  - Crisis management
+
+Strategies for testing Contigency Plans:
+* Desk check
+* Structured walkthorugh
+* Simulation
+* Full Interuption
+
+### Business Impact Analysis
+
+The **business impact analysis (BIA)** is the first phase of the CP process and serves as an investigation and assessment of the impact that various adverse events can have on the organization. (RM vs BIA, BIA assumes the RM controls have been bypassed or failed). Provides detailed identification and prioritization of critical business BIA tasks:
+- Collect critical information before prioritizing
+- Analyze and prioritize business processes
+Weighted analysis table resolves most critical issues.
+
+### Key Downtime Metrics:
+
+* **Recovery time objective (RTO):** Time period within which systems, applications, or functions must be recovered after an outage
+* **Recovery point objective (RPO):** Point in time to which lost systems and data can be recovered after outage; determined by business unit
+* **Maximum tolerable downtime (MTD):** Total amount of time the system owner/authorizing official willing to accept for a process outage (RTO + WRT)
+* **Work Recovery Time (WRT):** the maximum tolerable amount of time that is needed to verify the system and/or data integrity
+
+![](/summary/figures/DowntimeMetrics.PNG)
+
+### Disaster Recovery
+
+Disaster recovery planning (DRP) entails preparation for and recovery from a disaster, whether natural or man-made, whether rapid or slow onset. The key role of a DR plan is defining how to reestablish operations at the location where the organization is usually located (primary site)
+
+> CPMT -> DRPT -> DRRTs -> Implement DR plan
+
+DR plan:
+1. Clear delegation of roles and responsibilities
+2. Execution of the alert roster and notification of key personnel
+3. Clear establishment of priorities
+4. Documentation of the disaster
+5. Action steps to mitigate the impact
+6. Alternative implementations for the various systems components
+
+**Business resumption planning (BRP) - the merge of the two functions (DR and BC) into a single function because are closely related**
+
+### Business Continuity
+
+BC planning (BCP) ensures critical business functions can continue in a disaster (Managed by CEO or COO). BCP is activated and executed concurrently with the DRP when needed. While BCP reestablishes critical functions at an alternate
+site, DRP focuses on reestablishment at the primary site.
+
+Business Continuity strategies:
+* Hot sites: full equipment, zero data-loss, expensive
+* Warm sites: partially equiped, minimum data-loss, cost-effective
+* Cold sites: Little or no equipment, High risk of data-loss, no internet, cheap
+
+### Crisis Management
+
+**Business crisis:** Any issue, problem, or disruption that triggers negative stakeholder reactions and potentially affects the organization’s reputation, business, and financial strength. Crisis vs Disaster, crisis focuses on personnel aspect.
+
+Crisis management plan (CMP) sometimes is included in DRP. CMP team includes individuals from all the functional areas (faster communication and cooperation)
+
+CPM's responsabilities:
+- Verifying personnel status
+- Activating the alert roster
+- Coordinating with emergency services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
