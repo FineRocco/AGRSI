@@ -157,7 +157,7 @@ The key is for the organization to find balance in its decision-making processes
 
 ## Cost-Benefit Analysis (CBA)
 
-**Cost Avoidance** is the money saved by using the defense strategy via the implementation of control.
+**Cost Avoidance** is the money saved by using the defense strategy via the implementation of control. \
 **Benefit** is the value to the organization of using controls to prevent losses associated with a specific vulnerability (annualized loss expectancy (ALE))
 The benefits of information security activities are directly related to cost savings, or cost avoidance.
 
