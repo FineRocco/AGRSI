@@ -9,10 +9,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4  # Ensures repo files are available
 
-      - name: Debug - List repository files
-        run: ls -R  # Confirms file structure
+      - name: Debug - List files
+        run: ls -R summary/figures  # Confirms the image exists
 
       - name: Convert Markdown to PDF using Pandoc with LaTeX
         uses: docker://pandoc/latex:3.5
         with:
-          args: "summary/summaryAGRSI.md -o test.pdf"
+          args: "--resource-path=summary summary/summaryAGRSI.md -o output/test.pdf"
+
+      - name: Ensure Output Exists
+        run: ls -lh output/  # Check if test.pdf exists
+
+      - name: Upload PDF as Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Converted-PDF
+          path: output/test.pdf
