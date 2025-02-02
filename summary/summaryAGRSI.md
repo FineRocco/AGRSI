@@ -77,13 +77,16 @@ Techniques for risk analysis based on consequences and likelihood can be:
 
 > Risk = likelihood of the occurrence of a vulnerability x the value of the asset - the percentage of risk mitigated by current controls + the uncertainty of current knowledge of the vulnerability. (Whitman Expression)
 
-**Output:** Risk ranking worksheet
+**Input:** 
+- A list of identified relevant event or risk scenarios & lists of all existing controls, their effectiveness, implementation and usage status (Assessing likelihood and consequence)
+
+**Output:** Risk ranking worksheet (A list of risks with level values assigned)
 
 ### Risk Evaluation (Risk Assessment)
 
 Apply the risk acceptance criteria to determime whether or not the risks can be accepted. If cannot, they should be prioritized for treatment.
 
-**Input:** a list of risk criteria and ri
+**Input:** a list of risk criteria and risks with level values assigned.
 
 **Output:** a list of prioritized risks with scenarios that lead for those risks; whether a risk treatment is required; suggestions for risk management.
 
