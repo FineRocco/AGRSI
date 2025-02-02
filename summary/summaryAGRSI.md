@@ -40,6 +40,8 @@ The context is the understanding of the **external and internal environments**, 
 - Establishing and maintaining information security risk criteria (Qualitive, Quantitive or Hybrid approach)
 - Risk acceptance criteria, consequence criteria, likelihood criteria, criteria for determening the level of risk **(Output)**
 
+**Input:** Organization's policy
+
 ### Risk Identification (Risk Assessment)
 
 The risk identification process begins with the identification and cataloguing of information assets.
@@ -47,25 +49,41 @@ An **information asset** is any asset that collects, stores, processes, or trans
 
 **Threat identification** - process of assessing potential exploitation of weaknesses in each information asset.
 
+Also in this phase, the risk owners are identified.
+
+There are two approaches commonly used to perform risk identification:
+- **Event-based approach:** identify strategic scenarios through a consideration of risk sources, and how they use or impact interested parties to reach those risk’s desired objective.
+- **Asset-based approach:** identify operational scenarios, which are detailed in terms of assets, threats and vulnerabilities. 
+
 Manager must: 
 1. identify the organization’s information assets
 2. categorize them into useful groups (Hardware, Software, and Network Assets & People, Procedures, and Data Assets)
 3. classify them (Assessing Values for Information Assets using weighting criteria questions)
 4. and prioritize them by overall importance (Listing Assets in Order of Importance)
 
-**Output:** a prioritized list of assets & a prioritized list of threats facing those assets which combined together create TVA worksheet.
+**Input:** Events that can negattively influence the achievement of information security objectives in the organization or in other organizations.
+
+**Output:** a prioritized list of assets & a prioritized list of threats facing those assets which combined together create TVA worksheet(list of risks); a list of risk owners with associated risk
 
 ### Risk Analysis (Risk Assessment)
 
 Risk analysis in IS is a process that assigns a comparative risk rating or score to each information vulnerability/asset. (Assessing likelihood, Potential impact on asset value, Percentage of Risk Mitigated by Current Controls)
 
+Techniques for risk analysis based on consequences and likelihood can be:
+
+- qualitative (e.g. high, medium, low)
+- quantitative (e.g. monetary cost, frequency or probability of occurrence)
+- semiquantitative, using qualitative scales with assigned values
+
 > Risk = likelihood of the occurrence of a vulnerability x the value of the asset - the percentage of risk mitigated by current controls + the uncertainty of current knowledge of the vulnerability. (Whitman Expression)
 
-**Outputs:** Risk ranking worksheet
+**Output:** Risk ranking worksheet
 
 ### Risk Evaluation (Risk Assessment)
 
 Apply the risk acceptance criteria to determime whether or not the risks can be accepted. If cannot, they should be prioritized for treatment.
+
+**Input:** a list of risk criteria and ri
 
 **Output:** a list of prioritized risks with scenarios that lead for those risks; whether a risk treatment is required; suggestions for risk management.
 
@@ -103,6 +121,10 @@ Risks and their factors (value of assets, consequences, threats, vulns., etc.) s
 - obtaining information to improve future risk assessments
 - analysing and learning lessons from incidents
 - identifying emerging risk
+
+**Input:** All risk information obtained from risk management activities.
+
+**Output:** Continual alignment of the management of risks with the organization's business objectives, and with risk acceptance criteria.
 
 ## Managing Risk
 
