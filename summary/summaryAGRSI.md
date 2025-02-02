@@ -323,7 +323,7 @@ Weighted analysis table resolves most critical issues.
 * **Maximum tolerable downtime (MTD):** Total amount of time the system owner/authorizing official willing to accept for a process outage (RTO + WRT)
 * **Work Recovery Time (WRT):** the maximum tolerable amount of time that is needed to verify the system and/or data integrity
 
-![](/summary/figures/DowntimeMetrics.PNG)
+![](/summary/figures/RecoveryMetrics.PNG)
 
 ### Disaster Recovery
 
