@@ -193,6 +193,8 @@ Measuring how ready an organization is for the introduction of controls to deter
 NPV is the Present Value of all cash flows which means: 
 > NPV = PV of future cash flows - PV of the cost of the investment
 
+**NPV and CBA gives a concrete value in currency.**
+
 Present Value:
 > PV = Cash flow / 1 + interest(discount) rate
 
