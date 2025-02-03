@@ -113,15 +113,9 @@ Envolves choosing (1 or more) the basic control strategies and plans their imple
 
 **Input:** a list of prioritized risks with event or risk scenarios that lead to those risks; risk acceptance criteria
 
-**Output:** Approved risk treatment plan/s (by risk owners) and accepted residual risks
+**Output:** Approved risk treatment plan/s (by risk owners) and accepted residual risks with justification for those that do not meet the organization’s normal risk acceptance criteria
 
 ![](figures/RiskTreatment.PNG)
-
-### Risk Acceptance (TO DO - Work in Progress....)
-
-The risk treatment plan and residual risk assessment is subjected to the acceptance decision (risk acceptance criteria) of the organization’s managers.
-
-**Output:** a list of accepted risks with justification for those that do not meet the organization’s normal risk acceptance criteria.
 
 ### Risk Communication and Consultation
 
