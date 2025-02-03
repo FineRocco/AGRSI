@@ -204,6 +204,8 @@ Present Value:
 > ROSI = (ALE - mALE - Cost of solution) / Cost of solution \
 > ROSI = (ALE * mitigation ratio - cost of solution) / Cost of solution
 
+**The benefit of ROSI is that it gives us a global perspective on the investment**
+
 **Cons of ALE:**
 - assumes losses are constant over time
 - ignores other relevant characterisks of risk (Ex: dispersion)
