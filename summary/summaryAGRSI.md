@@ -109,7 +109,7 @@ Envolves choosing (1 or more) the basic control strategies and plans their imple
 * **Modification (Mitigation):** attempts to reduce the damage caused by a realized incident or disaster (Incident response (IR) plan, Disaster recovery (DR) plan, Business continuity (BC) plan, Crisis management (CM) plan)
 * **Sharing (Transferal):** attempts to shift the risk to other assets, other processes, or other organizations (Purchasing insurance, Outsourcing to other organizations, Implementing service contracts with providers)
 * **Retention (Acceptance):** the decision to do nothing to protect an information asset from risk and accept the outcome (implemented when the cost of protecting an asset does not justify the expense, calculated using CBA)
-* **Avoidance (Termination):** - based on the organization’s need or choice not to protect an asset (must be a conscious business decision)
+* **Avoidance (Termination):** The organization does not wish the asset to remain at risk so it is removed form the environment that represents risk (must be a conscious business decision)
 
 **Input:** a list of prioritized risks with event or risk scenarios that lead to those risks; risk acceptance criteria
 
