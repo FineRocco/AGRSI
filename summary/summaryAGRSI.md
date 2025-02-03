@@ -200,7 +200,7 @@ Present Value:
 
 > ROSI = (Monetary loss reduction - Cost of solution) / Cost of solution \
 > ROSI = (ALE - mALE - Cost of solution) / Cost of solution \
-> ROSI = (ALE * mitigation ratio - cost of solution) / Cost of solution \
+> ROSI = (ALE * mitigation ratio - cost of solution) / Cost of solution
 
 **Cons of ALE:**
 - assumes losses are constant over time
