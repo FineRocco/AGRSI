@@ -104,7 +104,7 @@ Apply the risk acceptance criteria to determime whether or not the risks can be 
 
 ### Risk Treatment
 
-Envolves choosing (1 or more) the basic control strategies:
+Envolves choosing (1 or more) the basic control strategies and their implementation:
 * **Modification (Defense):** attempts to prevent the exploitation of the vulnerability (Ex: countering threats, removing vulnerabilities in assets, limiting access to assets, and adding protective safeguards)
 * **Modification (Mitigation):** attempts to reduce the damage caused by a realized incident or disaster (Incident response (IR) plan, Disaster recovery (DR) plan, Business continuity (BC) plan, Crisis management (CM) plan)
 * **Sharing (Transferal):** attempts to shift the risk to other assets, other processes, or other organizations (Purchasing insurance, Outsourcing to other organizations, Implementing service contracts with providers)
