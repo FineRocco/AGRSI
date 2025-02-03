@@ -181,7 +181,7 @@ The benefits of information security activities are directly related to cost sav
 
 ## Feasibility 
 
-Measuring how ready an organization is for the introduction of controls is to determine the proposal’s:
+Measuring how ready an organization is for the introduction of controls to determine the proposal’s:
 - **Economic feasibility:** is the most common criterion and is used in CBA
 - **Organizational feasibility:** examines how well the proposed InfoSec alternatives will contribute to the efficiency, effectiveness, and overall operation of an organization
 - **Operational feasibility:** also known as behavioral feasibility, refers to user acceptance and support, management acceptance and support, and the system’s compatibility with the requirements of the organization’s stakeholders
@@ -239,7 +239,7 @@ Objective: **avoid or contain the impact of information security incidents**
 - **Incident Handling** actions of detecting, reporting, assessing, responding to, dealing with, and learning from information security incidents
 - **Incident Response Team (IRT):** team of appropriately skilled and trusted members of the organization that handles incidents during their lifecycle
 - **Incident Response:** actions taken to mitigate or resolve an information security incident
-- **Point of Contact (PoC):** defined organizational function or role serving as the coordinator or focal point of information concerning incident management activities
+- **Point of Contact (PoC):** defined organizational function or role serving as the focal point of information concerning incident management activities
 
 ### Benefits:
 - a) **Improving overall information security (rapid identification and response)**
