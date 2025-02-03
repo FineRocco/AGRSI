@@ -270,7 +270,7 @@ Objective: **avoid or contain the impact of information security incidents**
 * Responses (Once IS incident is confirmed):
    - investigate incidents relative to IS incident classification rating
    - review by the IRT to determine whether the IS incident is under control (If yes: **perform the required response**; if not: **perform crisis response activites**)
-   - after recovery from an incident, initiate Post Incident Activity (investigate other relevant sources)
+   - after recovery from an incident, initiate **Post Incident Activity** (investigate other relevant sources)
 * Lessons Learnt:
    - Review the investigation(Post Incident Activity) and improve (reduces false alarms)
 
