@@ -96,7 +96,7 @@ Techniques for risk analysis based on consequences and likelihood can be:
 
 Apply the risk acceptance criteria to determime whether or not the risks can be accepted. If cannot, they should be prioritized for treatment considering the assessed levels of risks.
 
-**Input:** a list of risk criteria and risks with level values assigned.
+**Input:** a list of risk criteria and risks with level values assigned. (Risk ranking worksheet)
 
 **Output:** a list of prioritized risks with scenarios that lead for those risks; whether a risk treatment is required; suggestions for risk management.
 
