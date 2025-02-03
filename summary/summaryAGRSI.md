@@ -312,10 +312,10 @@ Strategies for testing Contigency Plans:
 
 ### Business Impact Analysis
 
-The **business impact analysis (BIA)** is the first phase of the CP process and serves as an investigation and assessment of the impact that various adverse events can have on the organization. (RM vs BIA, BIA assumes the RM controls have been bypassed or failed). Provides detailed identification and prioritization of critical business BIA tasks:
+The **business impact analysis (BIA)** is the first phase of the CP process and serves as an investigation and assessment of the impact that various adverse events can have on the organization. (RM vs BIA, BIA assumes the RM controls have been bypassed or failed). Provides detailed identification and prioritization of critical business. BIA tasks:
 - Collect critical information before prioritizing
 - Analyze and prioritize business processes
-Weighted analysis table resolves most critical issues.
+- Weighted analysis table resolves most critical issues.
 
 ### Key Downtime Metrics:
 
