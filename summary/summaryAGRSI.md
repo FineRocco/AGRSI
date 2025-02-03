@@ -276,9 +276,34 @@ Objective: **avoid or contain the impact of information security incidents**
 
 ![](figures/IncidentManagementPhases.PNG)
 
-## Incident Detection (SOC)
+## Incident Detection
+Possible Indicators of an Incident:
+* Presence of unfamiliar files
+* Presence or execution of unknown programs or processes
+* Unusual consumption of computing resources
+* Unusual system crashes
 
-Security Operations Centers is a central competence that joins people, processes and technology in a mission to detect, contain and react to IT Security Threats Events/Incidents:
+Probable Indicators of an Incident:
+* Activities at unexpected times
+* Presence of unexpected new accounts
+* Reported attacks
+* Notification from IDPS
+
+Definite Indicators:
+* Definite indicators requiring IR plan activation
+* Confirmed events indicating attack underway
+
+Identifying Real Incidents:
+* Actual incidents versus nonevents
+* Ways to process incidents
+* Noise: legitimate activities wrongly reported
+* Causes of noise or false positives
+* Data collection tuning process
+* False negative
+* New or modified systems placed in service
+* Tuning process objective
+
+**Security Operations Centers (SOC)** is a central competence that joins people, processes and technology in a mission to detect, contain and react to IT Security Threats Events/Incidents:
 - Routine data collection and analysis
 - Data collected by automatic recording systems
 - Understanding the norm (So it understands the abnormal)
