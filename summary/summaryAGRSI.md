@@ -385,9 +385,14 @@ Business Continuity strategies:
 Crisis management plan (CMP) sometimes is included in DRP. CMP team includes individuals from all the functional areas (faster communication and cooperation)
 
 CMP's responsabilities:
-- Verifying personnel status (Supporting personnel and their loved ones during the crisis)
-- Activating the alert roster (Keeping the public informed about the event and the actions being taken to ensure the recovery of personnel and the enterprise)
-- Coordinating with emergency services (Communicating with major customers, suppliers, partners, regulatory agencies, industry organizations, the media, and other interested parties)
+- Verifying personnel status
+- Activating the alert roster
+- Coordinating with emergency services
+
+CMP's roles:
+- Supporting personnel and their loved ones during the crisis
+- Keeping the public informed about the event and the actions being taken to ensure the recovery of personnel and the enterprise
+- Communicating with major customers, suppliers, partners, regulatory agencies, industry organizations, the media, and other interested parties
 
 ![](figures/ContigencyPlans.PNG)
 
