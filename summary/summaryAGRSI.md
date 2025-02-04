@@ -60,7 +60,7 @@ An **information asset** is any asset that collects, stores, processes, or trans
 
 **Threat identification** - process of assessing potential exploitation of weaknesses in each information asset.
 
-Conduct a weighted table analysis to list the assets and threats in order of importance.
+Conduct a **weighted table analysis** to list the assets and threats in order of importance.
 Also in this phase, the risk owners are identified.
 
 There are two approaches commonly used to perform risk identification:
