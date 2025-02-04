@@ -88,7 +88,7 @@ Techniques for risk analysis based on consequences and likelihood can be:
 
 > Risk = likelihood of the occurrence of a vulnerability x the value of the asset - the percentage of risk mitigated by current controls + the uncertainty of current knowledge of the vulnerability. (Whitman Expression)
 
-**Input:** a list of identified relevant event or risk scenarios & lists of all existing controls, their effectiveness, implementation and usage status (Assessing likelihood and consequence)
+**Input:** a list of risks; a list of identified relevant event or risk scenarios & lists of all existing controls, their effectiveness, implementation and usage status (Assessing likelihood and consequence)
 
 **Output:** Risk ranking worksheet (A list of risks with level values assigned)
 
