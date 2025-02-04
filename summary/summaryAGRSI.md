@@ -171,7 +171,7 @@ The benefits of information security activities are directly related to cost sav
 **Cost-benefit analysis (CBA)** is a form of feasibility study that compares the life-cycle cost of implementing a control mechanism against the estimated economic benefit that would accrue from the implementation of the control. Basically, it determines whether the benefit from a control alternative is worth the associated cost of the control.
 > CBA = ALE(precontrol) - ALE(postcontrol) - ACS(annual cost of the safeguard)
 
-**Alternatives to using CBA** are Benchamarking (seeking out and studying the practices used in other organizations that produce the results you desire), etc.
+**Alternatives to using CBA** are Benchmarking (seeking out and studying the practices used in other organizations that produce the results you desire), etc.
 
 ## Feasibility 
 
