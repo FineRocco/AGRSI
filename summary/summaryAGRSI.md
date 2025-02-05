@@ -69,8 +69,8 @@ There are two approaches commonly used to perform risk identification:
 
 Manager must: 
 1. identify the organization’s information assets
-2. categorize them into useful groups (Hardware, Software, and Network Assets & People, Procedures, and Data Assets)
-3. classify them (Assessing Values for Information Assets using weighting criteria questions)
+2. classify them (Assessing Values for Information Assets using weighting criteria questions)
+3. categorize them into useful groups (Hardware, Software, and Network Assets & People, Procedures, and Data Assets)
 4. and prioritize them by overall importance (Listing Assets in Order of Importance)
 
 **Input:** Events that can negattively influence the achievement of information security objectives in the organization or in other organizations.
