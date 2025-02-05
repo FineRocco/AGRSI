@@ -355,7 +355,7 @@ The **business impact analysis (BIA)** is the first phase of the CP process and 
 
 ### Disaster Recovery
 
-Disaster recovery planning (DRP) entails preparation for and recovery from a disaster, whether natural or man-made, whether rapid or slow onset. The key role of a DR plan is defining how to reestablish operations at the location where the organization is usually located (primary site)
+Disaster recovery planning (DRP) entails preparation for and recovery from a disaster, whether natural or man-made, whether rapid or slow onset. The key role of a DR plan is defining how to reestablish operations at the location where the organization is usually located (primary site). An incident is a disaster, when the organization is unable to contain the impact or the level of damage is severe
 
 > CPMT -> DRPT -> DRRTs -> Implement DR plan
 
